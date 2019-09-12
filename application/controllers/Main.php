@@ -62,11 +62,11 @@ class Main extends CI_Controller {
 	}
 
 	public function events() {
-		$this->load->view("events");
+		$this->load->view("page_events");
 	}
 
 	public function events_en() {
-		$this->load->view("events_en");
+		$this->load->view("page_events_en");
 	}
 
 }

@@ -21,6 +21,7 @@
 					<div class="cl">
 						<div class="fl navleft">
 							<!--#include file="CommonMenu.html"-->
+							<?php $this->load->view('commonmenu');?>
 						</div>
 						<div class="fl navright">
 							<div class="cl partentcimg">
