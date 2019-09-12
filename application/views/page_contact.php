@@ -5,8 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html>
 <head>
 	<script type="text/javascript">
-		var pageName = 'Contact.shtml';
-		var toPageName = 'ENContact.shtml';
+		var pageName = 'contact';
+		var toPageName = 'contact_en';
 		var lang = 'CN';
 	</script>
 	<!--#include file="header.html"-->

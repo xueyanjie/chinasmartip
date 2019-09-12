@@ -3,8 +3,8 @@
 <html>
 	<head>
 		<script type="text/javascript">
-			var pageName = 'Events.shtml';
-			var toPageName = 'ENEvents.shtml';
+			var pageName = 'events';
+			var toPageName = 'events_en';
 			var lang = 'CN';
 		</script>
 		<!--#include file="header.html"-->

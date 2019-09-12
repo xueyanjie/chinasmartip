@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.jslides.js"></script>
 	<!--顶部菜单-->
 	<script>
-		location.href="http://www.chinasmartip.com/ENnavlist.shtml";//跳转到新版官网英文版
+		location.href="<?php echo base_url();?>/Main/navlist_en";//跳转到新版官网英文版
 		$(document).ready(function(){
 			$("#nav li").hover(
 				function(){

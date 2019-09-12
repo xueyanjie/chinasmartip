@@ -8,8 +8,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		host = '<?php echo base_url();?>';
 	</script>
 	<script type="text/javascript">
-		var pageName = 'index.shtml';
-		var toPageName = 'ENindex.shtml';
+		var pageName = 'index';
+		var toPageName = 'index_en';
 		var lang = 'CN';
 	</script>
 	<meta charset="utf-8" />

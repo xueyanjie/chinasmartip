@@ -6,8 +6,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html>
 <head>
 	<script type="text/javascript">
-		var pageName = 'navlist.shtml';
-		var toPageName = 'ENnavlist.shtml';
+		var pageName = 'navlist';
+		var toPageName = 'navlist_en';
 		var lang = 'CN';
 	</script>
 	<!--#include file="header.html"-->

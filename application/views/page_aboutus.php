@@ -2,8 +2,8 @@
 <html>
 <head>
 	<script type="text/javascript">
-		var pageName = 'AboutUs.shtml';
-		var toPageName = 'ENAboutUs.shtml';
+		var pageName = 'aboutus';
+		var toPageName = 'aboutus_en';
 		var lang = 'CN';
 	</script>
 	<!--#include file="header.html"-->

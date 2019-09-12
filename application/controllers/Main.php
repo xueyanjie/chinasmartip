@@ -17,7 +17,7 @@ class Main extends CI_Controller {
 		$this->load->view('page_index');
 	}
 
-	public function en() {
+	public function index_en() {
 		$this->load->view('page_index_en');
 	}
 

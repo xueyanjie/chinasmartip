@@ -45,18 +45,18 @@ $(function(){
 	//$('#navPartners').click(function(){location.href='Partners.shtml';});
 	//$('#navEvents').click(function(){location.href='Events.shtml';});
 	//$('#navPractices').click(function(){location.href='Practices.shtml';});
-	bindClick('#navAbouten', function(){location.href='ENAboutUs.shtml';});
-	bindClick('#navContacten', function(){location.href='ENContact.shtml';});
-	bindClick('#navPartnersen', function(){location.href='ENPartners.shtml';});
-	bindClick('#navEventsen', function(){location.href='ENEvents.shtml';});
-	bindClick('#navPracticesen', function(){location.href='ENPractices.shtml';});
+	bindClick('#navAbouten', function(){location.href=prefix+'aboutus_en';});
+	bindClick('#navContacten', function(){location.href=prefix+'contact_en';});
+	bindClick('#navPartnersen', function(){location.href=prefix+'partners_en';});
+	bindClick('#navEventsen', function(){location.href=prefix+'events_en';});
+	bindClick('#navPracticesen', function(){location.href=prefix+'practices_en';});
 	//$('#navAbouten').click(function(){location.href='ENAboutUs.shtml';});
 	//$('#navContacten').click(function(){location.href='ENContact.shtml';});
 	//$('#navPartnersen').click(function(){location.href='ENPartners.shtml';});
 	//$('#navEventsen').click(function(){location.href='ENEvents.shtml';});
 	//$('#navPracticesen').click(function(){location.href='ENPractices.shtml';});
-	bindClick('.a_back_pref', function(){location.href='Partners.shtml';});
-	bindClick('.a_back_pref_en', function(){location.href='ENPartners.shtml';});
+	bindClick('.a_back_pref', function(){location.href=prefix+'partners';});
+	bindClick('.a_back_pref_en', function(){location.href=prefix+'partners_en';});
 	//$('.a_back').click(function(){history.back();});
 	bindClick('.li_partners', function(self){
 		var addr = self.attr('page');

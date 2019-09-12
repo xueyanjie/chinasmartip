@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<script type="text/javascript">
-			var pageName = 'ENnavlist.shtml';
-			var toPageName = 'navlist.shtml';
+			var pageName = 'navlist_en';
+			var toPageName = 'navlist';
 			var lang = 'EN';
 		</script>
 		<!--#include file="header.html"-->
