@@ -4,7 +4,7 @@
         var on = pageName == 'aboutus' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>/Main/aboutus"><span class="span_circle"></span>关于我们</a></li>';
         on = pageName == 'practices' ? ' class="on" ' : '';
-        html += '<li '+on+'><a href="<?php echo base_url();?>/Main/practices.shtml"><span class="span_circle"></span>服务领域</a></li>';
+        html += '<li '+on+'><a href="<?php echo base_url();?>/Main/practices"><span class="span_circle"></span>服务领域</a></li>';
         on = pageName == 'partners' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>/Main/partners"><span class="span_circle"></span>专业团队</a></li>';
         on = pageName == 'events' ? ' class="on" ' : '';
