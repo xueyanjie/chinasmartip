@@ -33,13 +33,13 @@ function bindClick(selector, func, bubble) {
 	}
 }
 
-host = '<?php echo base_url();?>';
 $(function(){
-	bindClick('#navAbout', function(){location.href='AboutUs.shtml';});
-	bindClick('#navContact', function(){location.href='Contact.shtml';});
-	bindClick('#navPartners', function(){location.href='Partners.shtml';});
-	bindClick('#navEvents', function(){location.href='Events.shtml';});
-	bindClick('#navPractices', function(){location.href='Practices.shtml';});
+	var prefix = host + "Main/";
+	bindClick('#navAbout', function(){location.href=prefix+'aboutus';});
+	bindClick('#navContact', function(){location.href=prefix+'contact';});
+	bindClick('#navPartners', function(){location.href=prefix+'partners';});
+	bindClick('#navEvents', function(){location.href=prefix+'events';});
+	bindClick('#navPractices', function(){location.href=prefix+'practices';});
 	//$('#navAbout').click(function(){location.href='AboutUs.shtml';});
 	//$('#navContact').click(function(){location.href='Contact.shtml';});
 	//$('#navPartners').click(function(){location.href='Partners.shtml';});

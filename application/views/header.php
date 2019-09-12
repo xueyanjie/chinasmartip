@@ -1,6 +1,10 @@
 <meta charset="utf-8" />
 <meta name="format-detection" content="telephone=no">
 
+<script type="text/javascript">
+	host = '<?php echo base_url();?>';
+</script>
+
 <link rel="stylesheet" href="<?php echo base_url();?>static/c/demo.css" />
 <link rel="stylesheet" href="<?php echo base_url();?>static/c/style.css" />
 <link rel="stylesheet" href="<?php echo base_url();?>static/c/add.css" />
