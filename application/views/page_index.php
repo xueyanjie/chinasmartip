@@ -5,6 +5,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html>
 <head>
 	<script type="text/javascript">
+		host = '<?php echo base_url();?>';
+	</script>
+	<script type="text/javascript">
 		var pageName = 'index.shtml';
 		var toPageName = 'ENindex.shtml';
 		var lang = 'CN';
