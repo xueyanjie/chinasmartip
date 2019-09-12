@@ -33,6 +33,7 @@ function bindClick(selector, func, bubble) {
 	}
 }
 
+host = '<?php echo base_url();?>';
 $(function(){
 	bindClick('#navAbout', function(){location.href='AboutUs.shtml';});
 	bindClick('#navContact', function(){location.href='Contact.shtml';});
