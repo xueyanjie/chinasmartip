@@ -18,6 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="mainWrap">
 		<div class="headwrap cl">
 			<!--#include file="CommonNavigation.html"-->
+			<?php $this->load->view('commonnavigation'); ?>
 		</div>
 		<div class="conWrap conWrapNav">
 			<div class="navbanner">
@@ -30,31 +31,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="navul cl">
 				<div class="navline"></div>
 				<div class="nav1 navli navli1">
-					<a href="AboutUs.shtml">
+					<a href="<?php echo base_url();?>/Main/aboutus">
 						<div class="navspan"></div>
 						<div class="navcon" id="navAbout">关于我们</div>
 					</a>
 				</div>
 				<div class="nav1 navli">
-					<a href="Practices.shtml">
+					<a href="<?php echo base_url();?>/Main/parctices">
 						<div class="navspan"></div>
 						<div class="navcon" id="navPractices">服务领域</div>
 					</a>
 				</div>
 				<div class="nav1 navli">
-					<a href="Partners.shtml">
+					<a href="<?php echo base_url();?>/Main/partners">
 						<div class="navspan"></div>
 						<div class="navcon" id="navPartners">专业团队</div>
 					</a>
 				</div>
 				<div class="nav1 navli">
-					<a href="Events.shtml">
+					<a href="<?php echo base_url();?>/Main/events">
 						<div class="navspan"></div>
 						<div class="navcon" id="navEvents">培训与活动</div>
 					</a>
 				</div>
 				<div class="nav1 navli">
-					<a href="Contact.shtml">
+					<a href="<?php echo base_url();?>/Main/contact">
 						<div class="navspan"></div>
 						<div class="navcon" id="navContact">联络我们</div>
 					</a>

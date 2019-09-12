@@ -28,7 +28,7 @@
 						<div class="fl navright">
 							<div class="phold phold20"></div>
 							<p class="p14l22"  style="text-align: justify;">
-							<img src="static/i/aboutUs.gif" style="float: right; vertical-align: top;display: inline; width: 350px;margin-left: 30px; margin-bottom:25px;"/>
+							<img src="<?php echo base_url();?>static/i/aboutUs.gif" style="float: right; vertical-align: top;display: inline; width: 350px;margin-left: 30px; margin-bottom:25px;"/>
 							北京汉智嘉成知识产权代理有限公司，致力于为中国国内以及外国客户以合理价格提供全方位、专业、优质的知识产权法律服务。<br/><br/>
 							我们的服务领域涵盖专利、商标、著作权、集成电路布图设计、域名、知识产权海关备案、商业秘密、不正当竞争、打假、行政执法、无形资产管理和其他与知识产权相关的事务。<br/><br/>
 							汉智嘉成，植根中国，放眼世界，汇聚和培养了一批精通技术、深谙不同国家知识产权法律法规、熟练应用各国语言的高素质、高水准、高学历的国际化团队。技术领域包括：机械工程、冶金、汽车工程、电子工程、通讯、计算机、半导体、自动控制、化学、材料、生物技术、制药等。深厚的技术功底和宽泛的技术领域，赋予了我们为客户提供准确、高效、可靠的知识产权“一站式”服务能力。<br/><br/>
@@ -37,6 +37,7 @@
 					</div>
 				</div>
 				<!--#include file="footer.html"-->
+				<?php $this->load->view('footer');?>
 			</div>
 			ß
 		</div>

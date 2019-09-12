@@ -9,11 +9,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>China Smart Intellectual Property Ltd.</title>
 	<meta name="keywords" content="Beijing Hanzhijiacheng Intellectual Property Agency Ltd." />
 	<meta name="description" content="China Smart Intellectual Property Ltd. (China Smart IP) is a private IP law firm designated by the State Intellectual Property Office of China (SIPO) and Chinese Trademark Office (CTMO) of State Administration for Industry and Commerce and registered at the Copyright Protection Center of China, with the purpose of providing comprehensive legal services in intellectual property industry related to patents (inventions, utility models and designs), trademarks, copyrights, anti-unfair competition etc. and intangible assets management." />
-	<LINK rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jslides.js"></script>
+	<LINK rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/common.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/style.css" />
+	<link href="<?php echo base_url();?>css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.jslides.js"></script>
 	<!--顶部菜单-->
 	<script>
 		location.href="http://www.chinasmartip.com/ENnavlist.shtml";//跳转到新版官网英文版
