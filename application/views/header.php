@@ -1,12 +1,12 @@
 <meta charset="utf-8" />
 <meta name="format-detection" content="telephone=no">
 
-<link rel="stylesheet" href="static/c/demo.css" />
-<link rel="stylesheet" href="static/c/style.css" />
-<link rel="stylesheet" href="static/c/add.css" />
+<link rel="stylesheet" href="<?php echo base_url();?>static/c/demo.css" />
+<link rel="stylesheet" href="<?php echo base_url();?>static/c/style.css" />
+<link rel="stylesheet" href="<?php echo base_url();?>static/c/add.css" />
 
-<script type="text/javascript" src="static/j/jquery.1.7.1.min.js" ></script>
-<script type="text/javascript" src="static/j/index.js" ></script>
+<script type="text/javascript" src="<?php echo base_url();?>static/j/jquery.1.7.1.min.js" ></script>
+<script type="text/javascript" src="<?php echo base_url();?>static/j/index.js" ></script>
 <script type="text/javascript">
 	var title = '北京汉智嘉成知识产权代理有限公司'
 	var keywords = '知识产权，专利，商标，著作权，域名';
