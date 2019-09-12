@@ -61,4 +61,12 @@ class Main extends CI_Controller {
 		$this->load->view("page_practices_en");
 	}
 
+	public function events() {
+		$this->load->view("events");
+	}
+
+	public function events_en() {
+		$this->load->view("events_en");
+	}
+
 }
