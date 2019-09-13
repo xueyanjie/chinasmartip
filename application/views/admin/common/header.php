@@ -1,7 +1,7 @@
 <link href="<?php echo base_url();?>static/c/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url();?>static/c/dashboard.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="<?php echo base_url();?>static/j/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>static/j/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>static/j/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>static/j/bootstrap.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>static/j/jquery.cookie.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>static/j/bootbox.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>static/j/jquery.form.js"></script>
