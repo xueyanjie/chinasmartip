@@ -108,7 +108,7 @@
 
         function fillInfo() {
             clearInfo();//先清空信息
-            var url = '/AdmincCate/get?id='+curr_id;
+            var url = '/AdminCate/get?id='+curr_id;
             $.get(url, {}, function(res){
                 if (!res.data || !res.data.cat_id) {return false;}
                 $('#txtCatName').val(res.data.cat_name);
