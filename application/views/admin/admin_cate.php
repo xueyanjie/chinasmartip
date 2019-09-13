@@ -44,7 +44,7 @@
                 if (isset($list) && !empty($list)) {
                     foreach ($list as $item) {
                         echo '<tr>';
-                        echo '<td>' . $item['id'] . '</td>';
+                        echo '<td>' . $item['cat_id'] . '</td>';
                         echo '<td>' . $item['name'] . '</td>';
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
