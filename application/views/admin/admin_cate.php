@@ -103,7 +103,7 @@
         //菜单初始化
         function renderMenu(){
             $('.mi').removeClass('active');
-            $('#mi_cate_mgr').addClass('active');
+            $('#mi_catemgr').addClass('active');
         }
 
         function fillInfo() {

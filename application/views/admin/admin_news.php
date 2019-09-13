@@ -28,7 +28,7 @@
 
             <h3 class="page-header">分类管理</h3>
             <div style="margin:10px;">
-                <button id="btnAddAction" class="btn btn-primary" type="button" data-toggle="modal" data-target="#win_edit">新增分类</button>
+                <button id="btnAddAction" class="btn btn-primary" type="button" href="<?echo base_url();?>/AdminNews/page_edit">新增分类</button>
             </div>
             <table class="table table-striped table-bordered table-hover table-responsive">
                 <thead>
@@ -50,7 +50,7 @@
 						echo '<td>' . $item['title'] . '</td>';
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
-                        echo '<td><a class="a_edit" style="cursor:pointer;" data-toggle="modal" data-target="#win_edit" news_id="'.$item['id'].'">编辑</a>';//|<a>删除</a>
+                        echo '<td><a target="_blank" href="' . base_url() . 'AdminNews/page_edit?id=' . $item['id'] . '">编辑</a>';//|<a>删除</a>
                         echo '|<a class="a_del" href="">删除</a>';
                         $news_url = '/AdminNews/index?cat_id=' . $item['id'];
                         echo '|<a href="' . $news_url . '">新闻管理</a>';
