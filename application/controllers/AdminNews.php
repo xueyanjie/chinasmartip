@@ -65,6 +65,7 @@ class AdminNews extends CI_Controller {
 		header('Content-type: application/json');
 		$id = $this->input->post_get("id");
 		$cat_id = $this->input->post_get("cat_id");
+		$title = $this->input->post_get("title");
 		$content = $this->input->post_get("content");
 		$result = array(
 			'status' => 0, 'status_text' => 'success', 'data' => '',
@@ -73,6 +74,7 @@ class AdminNews extends CI_Controller {
 		$data = array(
 			'cat_id' => $cat_id,
 			'content' => $content,
+			'title' => $title,
 		);
 		if (empty($id)) { //新增信息
 			$data['insert_time'] = $now;
@@ -82,11 +84,11 @@ class AdminNews extends CI_Controller {
 				$result['status_text'] = 'failed';
 			}
 		} else { //修改信息
-			$where = "id={$id}";
+			$where = " id={$id} ";
 			$affected_rows = $this->newsmodel->update($data, $where);
 			if (empty($affected_rows)) {
 				$result['status'] = -1;
-				$result['status_text'] = 'failed';
+				$result['status_text'] = 'failed_update';
 			}
 		}
 		echo json_encode($result);
