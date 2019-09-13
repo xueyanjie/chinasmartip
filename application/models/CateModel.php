@@ -48,7 +48,7 @@ class CateModel extends CI_Model
 	 */
 	public function delete($id)
 	{
-		$sql = "DELETE FROM cs_cate WHERE id=?";
+		$sql = "DELETE FROM cs_cate WHERE cat_id=?";
 		$this->db->query($sql, array($id));
 		return $this->db->affected_rows();
 	}
@@ -87,7 +87,7 @@ class CateModel extends CI_Model
 		$pz = intval($pz);
 		$offset = ($pn - 1) * $pz;
 		$sql = 'select *'
-			. " from cs_cate order by id desc limit ?,?";
+			. " from cs_cate order by cat_id desc limit ?,?";
 		$query = $this->db->query($sql, array($offset, $pz));
 		return $query->result_array();
 	}
@@ -97,7 +97,7 @@ class CateModel extends CI_Model
 	{
 		$top = intval($top);
 		$sql = 'select *'
-			. " from cs_cate order by id desc limit ?";
+			. " from cs_cate order by cat_id desc limit ?";
 		$query = $this->db->query($sql, array($top));
 		return $query->result_array();
 	}
@@ -116,7 +116,7 @@ class CateModel extends CI_Model
 		//$sql = "SELECT * FROM some_table WHERE id IN ? AND status = ? AND author = ?";
 		//$this->db->query($sql, array(array(3, 6), 'live', 'Rick'));
 		//SELECT * FROM some_table WHERE id IN (3,6) AND status = 'live' AND author = 'Rick'
-		$sql = 'SELECT * FROM cs_cate WHERE id=? limit 1';
+		$sql = 'SELECT * FROM cs_cate WHERE cat_id=? limit 1';
 		$query = $this->db->query($sql, array($id));
 		$result = $query->result_array();
 		return !empty($result)&&isset($result[0]) ? $result[0] : false;
