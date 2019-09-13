@@ -9,6 +9,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Main extends CI_Controller {
 
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('catemodel');
+		$this->load->model('newsmodel');
+	}
 //	public function header() {
 //		$this->load->view("");
 //	}
@@ -62,10 +68,14 @@ class Main extends CI_Controller {
 	}
 
 	public function events() {
-		$this->load->view("page_events");
+		$list = $this->newsmodel->get_list_by_cate(1);//培训与活动
+		$data['news'] = $list;
+		$this->load->view("page_events", $data);
 	}
 
 	public function events_en() {
+		$list = $this->newsmodel->get_list_by_cate(2);//培训与活动-英文
+		$data['news'] = $list;
 		$this->load->view("page_events_en");
 	}
 
