@@ -49,7 +49,7 @@
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
                         echo '<td><a class="a_edit" style="cursor:pointer;" data-toggle="modal" data-target="#win_edit" cat_id="'.$item['cat_id'].'">编辑</a>';//|<a>删除</a>
-                        echo '|<a class="a_del" href="' . $url . '">删除</a>';
+                        echo '|<a class="a_del" href="">删除</a>';
                         $news_url = '/AdminNews/index?cat_id=' . $item['cat_id'];
                         echo '|<a href="' . $news_url . '">新闻管理</a>';
                         echo '</td>';
