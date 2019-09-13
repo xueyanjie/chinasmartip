@@ -48,14 +48,14 @@
                         echo '<td>' . $item['cat_name'] . '</td>';
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
-                        echo '<td><a class="a_edit" style="cursor:pointer;" data-toggle="modal" data-target="#win_edit" action_id="'.$item['action_id'].'">编辑</a>';//|<a>删除</a>
-                        $url = '/AdminLottery/winlog?pn=1&pz=25&action_id=' . $item['action_id'];
+                        echo '<td><a class="a_edit" style="cursor:pointer;" data-toggle="modal" data-target="#win_edit" action_id="'.$item['cat_id'].'">编辑</a>';//|<a>删除</a>
+                        $url = '/AdminLottery/winlog?pn=1&pz=25&action_id=' . $item['cat_id'];
                         echo '|<a href="' . $url . '">中奖记录</a>';
-                        $status_url = '/AdminLottery/actionStatus?action_id=' . $item['action_id'];
+                        $status_url = '/AdminLottery/actionStatus?action_id=' . $item['cat_id'];
                         echo '|<a href="' . $status_url . '">概览</a>';
-                        $prizemgr = '/AdminPrize/getlist?action_id=' . $item['action_id'];
+                        $prizemgr = '/AdminPrize/getlist?action_id=' . $item['cat_id'];
                         echo '|<a href="' . $prizemgr . '">奖品管理</a>';
-                        echo '|<a class="reset_action" action_id="' . $item['action_id'] . '" title="' . $item['title'] . '">重置</a>';
+                        echo '|<a class="reset_action" action_id="' . $item['cat_id'] . '" title="' . $item['title'] . '">重置</a>';
                         echo '</td>';
                         echo '</tr>';
                     }
