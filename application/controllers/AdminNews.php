@@ -76,6 +76,7 @@ class AdminNews extends CI_Controller {
 			'content' => $content,
 			'title' => $title,
 		);
+		var_dump($id, $data);die;
 		if (empty($id)) { //新增信息
 			$data['insert_time'] = $now;
 			$last_insert_id = $this->newsmodel->add($data);
