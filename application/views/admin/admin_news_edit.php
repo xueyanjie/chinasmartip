@@ -76,7 +76,10 @@
 	<script type="text/javascript">
 		var ue = UE.getEditor('container');
 		var ueReady = false;
-		ue.ready(function() { ueReady = true; });
+		ue.ready(function() {
+			ue.setContent("<?php echo empty($info) ? "" : $info["content"]; ?>");
+			ueReady = true;
+		});
 	</script>
 
     <script type="text/javascript">
