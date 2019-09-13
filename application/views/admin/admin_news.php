@@ -26,9 +26,9 @@
             <div class="alert alert-danger" role="alert" style="display:none;">...</div>
 
 
-            <h3 class="page-header">分类管理</h3>
+            <h3 class="page-header">新闻管理</h3>
             <div style="margin:10px;">
-                <button id="btnAddAction" class="btn btn-primary" type="button" href="<?echo base_url();?>/AdminNews/page_edit">新增分类</button>
+                <button id="btnAddNews" class="btn btn-primary" type="button" href="<?echo base_url();?>/AdminNews/page_edit">新增</button>
             </div>
             <table class="table table-striped table-bordered table-hover table-responsive">
                 <thead>
@@ -184,9 +184,11 @@
                 fillInfo();
             });
             //新增
-            $('#btnAddAction').click(function(){
+            $('#btnAddNews').click(function(){
                 curr_id = '0';
                 clearInfo();//清空表单信息
+				var href = $(this).attr('href');
+				location.href = href;
             });
             $('#btn_edit_submit').click(submitInfo);
             //初始化datepicker
