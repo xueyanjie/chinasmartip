@@ -35,6 +35,7 @@ class AdminNews extends CI_Controller {
 		$id = $this->input->post_get("id");
 		$inst = $this->newsmodel->get_single($id);
 		$data["info"] = $inst;
+		$data["content"] = empty($inst) ? "" : $inst["content"];
 		$data["id"] = empty($id) ? "" : $id;
 		$data["has"] = !empty($inst);//是否有结果
 		$cates = $this->catemodel->get_list_top(100);
