@@ -55,7 +55,7 @@
                         echo '|<a href="' . $status_url . '">概览</a>';
                         $prizemgr = '/AdminPrize/getlist?action_id=' . $item['cat_id'];
                         echo '|<a href="' . $prizemgr . '">奖品管理</a>';
-                        echo '|<a class="reset_action" action_id="' . $item['cat_id'] . '" title="' . $item['name'] . '">重置</a>';
+                        echo '|<a class="reset_action" action_id="' . $item['cat_id'] . '" title="' . $item['cat_name'] . '">重置</a>';
                         echo '</td>';
                         echo '</tr>';
                     }
