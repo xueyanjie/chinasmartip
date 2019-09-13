@@ -2,13 +2,13 @@
 
     <div id="div_mp_lottery" group="lottery" class="menu_parent">内容管理<p style="float:right;">-</p></div>
     <ul class="nav nav-sidebar" id="lottery_ul">
-        <li id="mi_action_mgr" class="mi">
-            <a id="mi_action_mgr_a" href="/AdminLottery/getActionList" class="mia">
+        <li id="mi_catemgr" class="mi">
+            <a id="mi_catemgr_a" href="/AdminCate" class="mia">
                 分类管理<span class="sr-only">(current)</span>
             </a>
         </li>
-        <li id="mi_prize_mgr" class="mi">
-            <a id="mi_prize_mgr_a" href="/AdminPrize/getlist" class="mia">新闻管理<span class="sr-only">(current)</span></a>
+        <li id="mi_news_mgr" class="mi">
+            <a id="mi_news_mgr_a" href="/AdminNews" class="mia">新闻管理<span class="sr-only">(current)</span></a>
         </li>
     </ul>
     <!--
