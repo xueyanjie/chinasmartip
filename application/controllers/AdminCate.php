@@ -30,6 +30,54 @@ class AdminCate extends CI_Controller {
 		$this->load->view('admin/admin_cate', $data);
 	}
 
+	public function get() {
+		header('Content-type: application/json');
+		$id = $this->input->post_get("cat_id");
+		$result = array(
+			'status' => STATUS_SUCCESS, 'status_text' => 'success', 'data' => '',
+		);
+		if (empty($id) || !is_numeric($id)) {
+			$result['status'] = STATUS_ILLIGLE;
+			$result['status_text'] = 'The param id is illigle';
+			echo json_encode($result);
+			return;
+		}
+		//尝试从缓存获取
+		$inst = $this->catemodel->get_single($id);
+		$result['data'] = $inst;
+		echo json_encode($result);
+		return;
+	}
+
+	public function set() {
+		header('Content-type: application/json');
+		$id = $this->input->post_get("cat_id");
+		$name = $this->input->post_get("cat_name");
+		$result = array(
+			'status' => STATUS_SUCCESS, 'status_text' => 'success', 'data' => '',
+		);
+		$now = date('Y-m-d H:i:s');
+		$data = array(
+			'cat_name' => $name,
+		);
+		if (empty($id)) { //新增信息
+			$data['insert_time'] = $now;
+			$last_insert_id = $this->catemodel->add($data);
+			if (empty($last_insert_id)) {
+				$result['status'] = STATUS_FAILED;
+				$result['status_text'] = 'failed';
+			}
+		} else { //修改信息
+			$where = "cat_id={$id}";
+			$affected_rows = $this->catemodel->update($data, $where);
+			if (empty($affected_rows)) {
+				$result['status'] = STATUS_FAILED;
+				$result['status_text'] = 'failed';
+			}
+		}
+		echo json_encode($result);
+	}
+
 	public function test()
 	{
 		echo "hello";
