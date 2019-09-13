@@ -78,6 +78,20 @@ class AdminCate extends CI_Controller {
 		echo json_encode($result);
 	}
 
+	public function del() {
+		$result = array(
+			'status' => 0, 'status_text' => 'success', 'data' => '',
+		);
+		header('Content-type: application/json');
+		$id = $this->input->post_get("id");
+		$affected_rows = $this->catemodel->delete($id);
+		if (empty($affected_rows)) {
+			$result['status'] = -1;
+			$result['status_text'] = 'failed';
+		}
+		echo json_encode($result);
+	}
+
 	public function test()
 	{
 		echo "hello";

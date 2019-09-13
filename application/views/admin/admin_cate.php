@@ -125,7 +125,7 @@
             //构造参数并提交
             var params = {
                 //id:curr_id,
-                title:$('#txtCatName').val(),
+                cat_name:$('#txtCatName').val(),
             };
             if (curr_id!='0') {
                 params['id'] = curr_id;
@@ -143,6 +143,37 @@
             });
         }
 
+        function del() {
+			var val = $('#txtCatName').val();
+			var url = '/AdminCate/del';
+			bootbox.confirm({
+				size: "small",
+				message: "确认删除分类<strong>"+val+"</strong>吗？",
+				callback: function(result){
+					if (result == true) {
+						$.post(url,{id:curr_id},function(res){
+							if (res && res.status == '0') {
+								bootbox.alert({
+									size: "small",
+									title: "操作成功",
+									message: "已删除",
+									//callback: function(){ /* your callback code */ }
+								})
+							} else {
+								bootbox.alert({
+									size: "small",
+									title: "操作失败",
+									message: "删除失败",
+									//callback: function(){ /* your callback code */ }
+								})
+							}
+						});
+					}
+				}
+			});
+
+		}
+
         $(function(){
             renderMenu();
             //编辑
@@ -158,35 +189,7 @@
             $('#btn_edit_submit').click(submitInfo);
             //初始化datepicker
             //重置抽奖活动
-            $('.reset_action').click(function(){
-                var action_id = $(this).attr('action_id');
-                var title = $(this).attr('title');
-                bootbox.confirm({
-                    size: "small",
-                    message: "确认清除活动<strong>"+title+"</strong>的数据？",
-                    callback: function(result){
-                        if (result == true) {
-                            $.post('/Lottery/reset',{id:action_id},function(res){
-                                if (res && res.status == '0') {
-                                    bootbox.alert({
-                                        size: "small",
-                                        title: "操作成功",
-                                        message: title+"的数据已重置",
-                                        //callback: function(){ /* your callback code */ }
-                                    })
-                                } else {
-                                    bootbox.alert({
-                                        size: "small",
-                                        title: "操作失败",
-                                        message: title+"的数据未能重置",
-                                        //callback: function(){ /* your callback code */ }
-                                    })
-                                }
-                            });
-                        }
-                    }
-                })
-            });
+            $('.a_del').click(del);
         });
     </script>
 </body>
