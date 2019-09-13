@@ -34,16 +34,23 @@
 			<form role="form">
 				<div class="form-group">
 					<label for="name">标题</label>
-					<input type="text" class="form-control" id="txtTitle" placeholder="请输入新闻标题">
+					<input type="text" class="form-control" id="txtTitle" placeholder="请输入新闻标题"
+						   value="<?php echo empty($info) ? "" : $info["title"]; ?>" />
 				</div>
 				<div class="form-group">
 					<label for="name">分类</label>
-					<select id="sel_cate">
+					<select id="sel_cate" class="form-control" >
 						<?php
 							if (!empty($cates)) {
 								foreach ($cates as $cate) {
 									?>
-									<option value="<?php echo $cate["cat_id"]; ?>"><?php echo $cate["cat_name"]; ?></option>
+									<option value="<?php echo $cate["cat_id"]; ?>"
+										<?php
+											if (!empty($info) && $cate["cat_id"] == $info["cat_id"]) {
+												echo " selected ";
+											}
+										?>
+									><?php echo $cate["cat_name"]; ?></option>
 									<?php
 								}
 							}
