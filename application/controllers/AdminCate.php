@@ -27,7 +27,7 @@ class AdminCate extends CI_Controller {
 		$data['pm'] = ceil($total/$pz);
 		$data['total'] = $total;
 		$data['list'] = $list;
-		$this->load->view('admin/admin_cate');
+		$this->load->view('admin/admin_cate', $data);
 	}
 
 	public function test()
