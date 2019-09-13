@@ -37,6 +37,20 @@
 					<input type="text" class="form-control" id="txtTitle" placeholder="请输入新闻标题">
 				</div>
 				<div class="form-group">
+					<label for="name">分类</label>
+					<select id="sel_cate">
+						<?php
+							if (!empty($cates)) {
+								foreach ($cates as $cate) {
+									?>
+									<option value="<?php echo $cate["cat_id"]; ?>"><?php echo $cate["cat_name"]; ?></option>
+									<?php
+								}
+							}
+						?>
+					</select>
+				</div>
+				<div class="form-group">
 					<label for="name">内容</label>
 					<!-- 加载编辑器的容器 -->
 					<script id="container" name="content" type="text/plain">

@@ -6,6 +6,7 @@ class AdminNews extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->model('catemodel');
 		$this->load->model('newsmodel');
 	}
 
@@ -36,6 +37,8 @@ class AdminNews extends CI_Controller {
 		$data["info"] = $inst;
 		$data["id"] = empty($id) ? "" : $id;
 		$data["has"] = !empty($inst);//是否有结果
+		$cates = $this->catemodel->get_list_top(100);
+		$data["cates"] = $cates;
 		$this->load->view('admin/admin_news_edit', $data);
 	}
 
