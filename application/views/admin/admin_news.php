@@ -28,7 +28,7 @@
 
             <h3 class="page-header">新闻管理</h3>
             <div style="margin:10px;">
-                <button id="btnAddNews" class="btn btn-primary" type="button" href="<?echo base_url();?>/AdminNews/page_edit">新增</button>
+                <button id="btnAddNews" class="btn btn-primary" type="button" href="<?php echo base_url();?>/AdminNews/page_edit">新增</button>
             </div>
             <table class="table table-striped table-bordered table-hover table-responsive">
                 <thead>
