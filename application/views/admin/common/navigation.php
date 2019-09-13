@@ -27,10 +27,10 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://wiki.pinyin.sogou-inc.com/index.php?title=抽奖接口文档">接口wiki</a>
+<!--                    <a target="_blank" href="http://wiki.pinyin.sogou-inc.com/index.php?title=抽奖接口文档">接口wiki</a>-->
                 </li>
                 <li>
-                    <a target="_blank" href="http://note.youdao.com/share/?id=bc049f9806757b52e15026fb25902d78&type=note#/">服务接入指南</a>
+<!--                    <a target="_blank" href="http://note.youdao.com/share/?id=bc049f9806757b52e15026fb25902d78&type=note#/">服务接入指南</a>-->
                 </li>
             </ul>
             <!--
