@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class AdminCate extends CI_Controller {
+class AdminNews extends CI_Controller {
 
 	public function __construct()
 	{
@@ -35,7 +35,7 @@ class AdminCate extends CI_Controller {
 		$inst = $this->newsmodel->get_single($id);
 		$data["info"] = $inst;
 		$data["has"] = !empty($inst);//是否有结果
-		$this->load->view('admin/admin_news', $data);
+		$this->load->view('admin/admin_news_edit', $data);
 	}
 
 	public function get() {
