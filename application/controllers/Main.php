@@ -79,4 +79,18 @@ class Main extends CI_Controller {
 		$this->load->view("page_events_en");
 	}
 
+	public function eventlist() {
+		$id = $this->input->get('id');
+		$item = $this->newsmodel->get_single($id);
+		$data['item'] = $item;
+		$this->load->view("page_events_list");
+	}
+
+	public function eventlist_en() {
+		$id = $this->input->get('id');
+		$item = $this->newsmodel->get_single($id);
+		$data['item'] = $item;
+		$this->load->view("page_events_list_en");
+	}
+
 }
