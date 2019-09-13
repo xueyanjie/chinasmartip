@@ -116,6 +116,7 @@
             var params = {
                 //id:curr_id,
                 title:$('#txtTitle').val(),
+				cat_id: $("#sel_cate").val(),
 				content:html,
             };
             if (curr_id!='0') {
