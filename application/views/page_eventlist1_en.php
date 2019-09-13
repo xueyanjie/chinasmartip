@@ -25,7 +25,7 @@
 							<!--<img src="static/i/making.png" class="imgmap"/>-->
 							<p class="p1624marleft"><span class="spand"></span>China Smart IP Obtained Patent and Trademark Agency Qualifications</p>
 							<p class="p14l22 marginLeft30">In August 2017, China Smart IP passed the examination and became a recorded trademark agency before the Trademark Office of the State Administration for Industry & Commerce.  In the same month, China Smart IP received the notification of approving the establishment of patent agency  issued by the State Intellectual Property Office and obtained patent agency qualification.</p>
-							<a class="ENa_back" href="ENEvents.shtml"></a>
+							<a class="ENa_back" href="<?php echo base_url();?>Main/events_en"></a>
 						</div>
 					</div>
 				</div>

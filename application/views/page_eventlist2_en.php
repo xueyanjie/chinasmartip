@@ -25,7 +25,7 @@
 							<!--<img src="static/i/making.png" class="imgmap"/>-->
 							<p class="p1624marleft"><span class="spand"></span>An Israeli Newspaper Published An Article Co-authored by Perel Law Office and China Smart IP</p>
 							<p class="p14l22 marginLeft30">On November 23, 2017, an Israeli newspaper published the article “Protecting your trademark and  brand in China”, which was co-authored by Adv. Liat Galily Perel from Perel Law Office  and  Mr. Daniel Jiang from China Smart IP.</p>
-							<a class="ENa_back" href="ENEvents.shtml"></a>
+							<a class="ENa_back" href="<?php echo base_url();?>Main/events_en"></a>
 						</div>
 					</div>
 				</div>

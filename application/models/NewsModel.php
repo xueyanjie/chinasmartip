@@ -92,6 +92,13 @@ class NewsModel extends CI_Model
 		return $query->result_array();
 	}
 
+	public function get_list_by_cate($cat_id, $top = 100) {
+		$sql = 'select *'
+			. " from cs_news where cat_id=? order by id desc limit ?";
+		$query = $this->db->query($sql, array($cat_id, $top));
+		return $query->result_array();
+	}
+
 	//倒序获得最新的N个活动信息
 	public function get_list_top($top = 10)
 	{

@@ -27,31 +27,31 @@
 					<div class="navul cl">
 						<div class="navline"></div>
 						<div class="nav1 navli navli1">
-							<a href="ENAboutUs.shtml">
+							<a href="<?php echo base_url();?>Main/aboutus_en">
 								<div class="navspan"></div>
 								<div class="navcon" id="navAbouten">About Us</div>
 							</a>
 						</div>
 						<div class="nav1 navli">
-							<a href="ENPractices.shtml">
+							<a href="<?php echo base_url();?>Main/practices_en">
 								<div class="navspan"></div>
 								<div class="navcon" id="navPracticesen">Practices</div>
 							</a>
 						</div>
 						<div class="nav1 navli">
-							<a href="ENPartners.shtml">
+							<a href="<?php echo base_url();?>Main/partners_e ">
 								<div class="navspan"></div>
 								<div class="navcon" id="navPartnersen">Professionals</div>
 							</a>
 						</div>
 						<div class="nav1 navli">
-							<a href="ENEvents.shtml">
+							<a href="<?php echo base_url();?>Main/events_en">
 								<div class="navspan"></div>
 								<div class="navcon" id="navEventsen">Events</div>
 							</a>
 						</div>
 						<div class="nav1 navli">
-							<a href="ENContact.shtml">
+							<a href="<?php echo base_url();?>Main/contact_en">
 								<div class="navspan"></div>
 								<div class="navcon" id="navContacten">Contact Us</div>
 							</a>
