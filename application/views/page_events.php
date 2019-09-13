@@ -30,7 +30,7 @@
 							if (!empty($news)) {
 								foreach ($news as $item) {
 									?>
-							<a class="a_event" href="Eventslist2.shtml"><p class="p1624marleft"><span class="spand"></span><?php echo $item['title']; ?></p></a>
+							<a class="a_event" href="<?php echo base_url() . "Main/eventlist?id=" . $item['id']; ?>"><p class="p1624marleft"><span class="spand"></span><?php echo $item['title']; ?></p></a>
 									<?php
 								}
 							}
