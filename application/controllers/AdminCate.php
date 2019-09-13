@@ -20,8 +20,8 @@ class AdminCate extends CI_Controller {
 			$pz = 15;
 		}
 		$data = array();
-		$total = $this->lottery_model->get_list_count();
-		$list = $this->lottery_model->get_list($pn, $pz, $total);
+		$total = $this->catemodel->get_list_count();
+		$list = $this->catemodel->get_list($pn, $pz, $total);
 		$data['pn'] = $pn;
 		$data['pz'] = $pz;
 		$data['pm'] = ceil($total/$pz);
