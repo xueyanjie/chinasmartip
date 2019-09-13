@@ -34,10 +34,10 @@ class AdminCate extends CI_Controller {
 		header('Content-type: application/json');
 		$id = $this->input->post_get("id");
 		$result = array(
-			'status' => STATUS_SUCCESS, 'status_text' => 'success', 'data' => '',
+			'status' => 0, 'status_text' => 'success', 'data' => '',
 		);
 		if (empty($id) || !is_numeric($id)) {
-			$result['status'] = STATUS_ILLIGLE;
+			$result['status'] = -3;
 			$result['status_text'] = 'The param id is illigle';
 			echo json_encode($result);
 			return;
@@ -54,7 +54,7 @@ class AdminCate extends CI_Controller {
 		$id = $this->input->post_get("id");
 		$name = $this->input->post_get("cat_name");
 		$result = array(
-			'status' => STATUS_SUCCESS, 'status_text' => 'success', 'data' => '',
+			'status' => 0, 'status_text' => 'success', 'data' => '',
 		);
 		$now = date('Y-m-d H:i:s');
 		$data = array(
@@ -64,14 +64,14 @@ class AdminCate extends CI_Controller {
 			$data['insert_time'] = $now;
 			$last_insert_id = $this->catemodel->add($data);
 			if (empty($last_insert_id)) {
-				$result['status'] = STATUS_FAILED;
+				$result['status'] = -1;
 				$result['status_text'] = 'failed';
 			}
 		} else { //修改信息
 			$where = "cat_id={$id}";
 			$affected_rows = $this->catemodel->update($data, $where);
 			if (empty($affected_rows)) {
-				$result['status'] = STATUS_FAILED;
+				$result['status'] = -1;
 				$result['status_text'] = 'failed';
 			}
 		}
