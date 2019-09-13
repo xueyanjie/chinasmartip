@@ -43,6 +43,7 @@
 						这里写你的初始化内容
 					</script>
 				</div>
+				<button id="btn_submit" type="button" class="btn btn-primary" data-dismiss="modal">保存</button>
 			</form>
 
         </div>
@@ -53,10 +54,12 @@
 	<!-- 实例化编辑器 -->
 	<script type="text/javascript">
 		var ue = UE.getEditor('container');
+		var ueReady = false;
+		ue.ready(function() { ueReady = true; });
 	</script>
 
     <script type="text/javascript">
-        var curr_id = '';
+        var curr_id = '<?php echo $id; ?>';
         //菜单初始化
         function renderMenu(){
             $('.mi').removeClass('active');
@@ -68,21 +71,28 @@
             var url = '/AdminCate/get?id='+curr_id;
             $.get(url, {}, function(res){
                 if (!res.data || !res.data.cat_id) {return false;}
-                $('#txtCatName').val(res.data.cat_name);
+                $('#txtTitle').val(res.data.cat_name);
             });
         }
 
         function clearInfo() {
-            $('#txtCatName').val('');
+            $('#txtTitle').val('');
+			ue.setContent('');
         }
 
         function submitInfo() {
-        	var val = $('#txtCatName').val();
+        	if (ueReady == false) {
+				showTip('error','<strong>编辑器尚未初始化成功</strong>');
+				return;
+			}
+        	var val = $('#txtTitle').val();
+			var html = ue.getContent();
         	if (val == "") { return false; }
             //构造参数并提交
             var params = {
                 //id:curr_id,
-                cat_name:$('#txtCatName').val(),
+                title:$('#txtTitle').val(),
+				content:html,
             };
             if (curr_id!='0') {
                 params['id'] = curr_id;
@@ -114,7 +124,7 @@
                 curr_id = '0';
                 clearInfo();//清空表单信息
             });
-            $('#btn_edit_submit').click(submitInfo);
+            $('#btn_submit').click(submitInfo);
             //初始化datepicker
         });
     </script>
