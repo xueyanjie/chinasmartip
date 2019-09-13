@@ -83,14 +83,14 @@ class Main extends CI_Controller {
 		$id = $this->input->get('id');
 		$item = $this->newsmodel->get_single($id);
 		$data['item'] = $item;
-		$this->load->view("page_events_list");
+		$this->load->view("page_events_list", $data);
 	}
 
 	public function eventlist_en() {
 		$id = $this->input->get('id');
 		$item = $this->newsmodel->get_single($id);
 		$data['item'] = $item;
-		$this->load->view("page_events_list_en");
+		$this->load->view("page_events_list_en", $data);
 	}
 
 }
