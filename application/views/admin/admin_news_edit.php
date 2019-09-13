@@ -92,7 +92,7 @@
 
         function fillInfo() {
             clearInfo();//先清空信息
-            var url = '/AdminCate/get?id='+curr_id;
+            var url = '/AdminNews/get?id='+curr_id;
             $.get(url, {}, function(res){
                 if (!res.data || !res.data.cat_id) {return false;}
                 $('#txtTitle').val(res.data.cat_name);
@@ -122,7 +122,7 @@
             if (curr_id!='0') {
                 params['id'] = curr_id;
             }
-            var url = '/AdminCate/set';
+            var url = '/AdminNews/set';
             $.post(url, params, function(res){
                 if (res) {
                     if (res.status == 0) {
