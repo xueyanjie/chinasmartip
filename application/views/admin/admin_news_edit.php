@@ -9,6 +9,9 @@
     <style>
         .reset_action{ cursor:pointer;color:red; }
     </style>
+	<script type="text/javascript" src="<?php echo base_url();?>ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>ueditor/ueditor.all.js"></script>
+	<script type="text/javascript"></script>
 </head>
 <body>
     <?php include 'common/navigation.php'; ?>
@@ -33,6 +36,13 @@
 					<label for="name">标题</label>
 					<input type="text" class="form-control" id="txtTitle" placeholder="请输入新闻标题">
 				</div>
+				<div class="form-group">
+					<label for="name">内容</label>
+					<!-- 加载编辑器的容器 -->
+					<script id="container" name="content" type="text/plain">
+						这里写你的初始化内容
+					</script>
+				</div>
 			</form>
 
         </div>
@@ -40,6 +50,10 @@
 
     </div>
 
+	<!-- 实例化编辑器 -->
+	<script type="text/javascript">
+		var ue = UE.getEditor('container');
+	</script>
 
     <script type="text/javascript">
         var curr_id = '';
