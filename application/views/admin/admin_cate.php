@@ -157,12 +157,6 @@
             });
             $('#btn_edit_submit').click(submitInfo);
             //初始化datepicker
-            $.datepicker.setDefaults($.datepicker.regional['zh-CN']);
-            $('#txtStartTime,#txtEndTime').datetimepicker({
-                dateFormat: 'yy-mm-dd',
-                showSecond: true,
-                timeFormat: 'hh:mm:ss'
-            });
             //重置抽奖活动
             $('.reset_action').click(function(){
                 var action_id = $(this).attr('action_id');

@@ -32,7 +32,7 @@ class AdminCate extends CI_Controller {
 
 	public function get() {
 		header('Content-type: application/json');
-		$id = $this->input->post_get("cat_id");
+		$id = $this->input->post_get("id");
 		$result = array(
 			'status' => STATUS_SUCCESS, 'status_text' => 'success', 'data' => '',
 		);
@@ -51,7 +51,7 @@ class AdminCate extends CI_Controller {
 
 	public function set() {
 		header('Content-type: application/json');
-		$id = $this->input->post_get("cat_id");
+		$id = $this->input->post_get("id");
 		$name = $this->input->post_get("cat_name");
 		$result = array(
 			'status' => STATUS_SUCCESS, 'status_text' => 'success', 'data' => '',
