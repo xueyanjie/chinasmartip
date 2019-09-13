@@ -45,7 +45,7 @@
                     foreach ($list as $item) {
                         echo '<tr>';
                         echo '<td>' . $item['cat_id'] . '</td>';
-                        echo '<td>' . $item['name'] . '</td>';
+                        echo '<td>' . $item['cat_name'] . '</td>';
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
                         echo '<td><a class="a_edit" style="cursor:pointer;" data-toggle="modal" data-target="#win_edit" action_id="'.$item['action_id'].'">编辑</a>';//|<a>删除</a>
