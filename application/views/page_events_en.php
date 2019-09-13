@@ -26,8 +26,17 @@
 						<div class="fl navright">
 							<!--<div class="phold phold105"></div>-->
 							<!--<img src="static/i/making.png" class="imgmap"/>-->
-							<a class="a_event" href="ENEventslist2.shtml"><p class="p1624marleft"><span class="spand"></span>An Israeli Newspaper Published An Article Co-authored by Perel Law Office and China Smart IP</p></a>
-							<a class="a_event" href="ENEventslist1.shtml"><p class="p1624marleft"><span class="spand"></span>China Smart IP Obtained Patent and Trademark Agency Qualifications</p></a>
+							<?php
+							if (!empty($news)) {
+								foreach ($news as $item) {
+									?>
+									<a class="a_event" href="<?php echo base_url() . "Main/eventlist?id=" . $item['id']; ?>"><p class="p1624marleft"><span class="spand"></span><?php echo $item['title']; ?></p></a>
+									<?php
+								}
+							}
+							?>
+<!--							<a class="a_event" href="ENEventslist2.shtml"><p class="p1624marleft"><span class="spand"></span>An Israeli Newspaper Published An Article Co-authored by Perel Law Office and China Smart IP</p></a>-->
+<!--							<a class="a_event" href="ENEventslist1.shtml"><p class="p1624marleft"><span class="spand"></span>China Smart IP Obtained Patent and Trademark Agency Qualifications</p></a>-->
 						</div>
 					</div>
 				</div>
