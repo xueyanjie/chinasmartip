@@ -86,8 +86,8 @@ class NewsModel extends CI_Model
 		}
 		$pz = intval($pz);
 		$offset = ($pn - 1) * $pz;
-		$sql = 'select *'
-			. " from cs_news order by id desc limit ?,?";
+		$sql = 'select n.*,c.cat_name'
+			. " from cs_news as n inner join cs_cate as c on c.cat_id=n.cat_id order by n.id desc limit ?,?";
 		$query = $this->db->query($sql, array($offset, $pz));
 		return $query->result_array();
 	}
