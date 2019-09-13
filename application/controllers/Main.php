@@ -76,8 +76,7 @@ class Main extends CI_Controller {
 	public function events_en() {
 		$list = $this->newsmodel->get_list_by_cate(2);//培训与活动-英文
 		var_dump($list);die;
-		$data['news'] = $list;
-		$this->load->view("page_events_en");
+		$this->load->view("page_events_en", $data);
 	}
 
 	public function eventlist() {
