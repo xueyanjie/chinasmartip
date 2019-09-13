@@ -65,12 +65,14 @@ class AdminNews extends CI_Controller {
 		header('Content-type: application/json');
 		$id = $this->input->post_get("id");
 		$cat_id = $this->input->post_get("cat_id");
+		$content = $this->input->post_get("content");
 		$result = array(
 			'status' => 0, 'status_text' => 'success', 'data' => '',
 		);
 		$now = date('Y-m-d H:i:s');
 		$data = array(
 			'cat_id' => $cat_id,
+			'content' => $content,
 		);
 		if (empty($id)) { //新增信息
 			$data['insert_time'] = $now;
