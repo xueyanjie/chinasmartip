@@ -34,7 +34,7 @@ body{
 	width: 100%;
 	height: 50px;
 	background: #d2ac79;
-	
+
 	line-height: 50px;
 	font-size: 18px;
 }
@@ -126,13 +126,13 @@ body{
 .navleftul li.on a,.navleftul li:hover a{
 	color: #d2ac79;
 	font-size: 20px;
-	
+
 }
 .navleftul li.on .span_circle,.navleftul li:hover .span_circle{
 	width: 16px;
 	height: 16px;
 	background: #d2ac79;
-	margin: 6px 15px 6px 0px;	
+	margin: 6px 15px 6px 0px;
 }
 .btn_copy{
 	width: 100px;
@@ -199,7 +199,9 @@ body{
 	top: ;
 }
 .conWrapNav{
-	height: 767px;
+	/* height: 767px; */
+	height:auto;
+	padding-bottom: 50px;
 	background: #d2ac79;
 }
 .navbanner{
@@ -295,7 +297,7 @@ body{
 	left: 0px;
 }
 .navcon{
-	width: 0;
+	width: 100%;
 	height: 100%;
 	position: absolute;
 	top: 0px ;
@@ -303,7 +305,7 @@ body{
 	text-align: center;
 	box-sizing: border-box;
 	background: #D2AC79;
-	overflow: hidden;
+	/* overflow: hidden; */
 	color: #FFFFFF;
 	transform-origin: center left;
 	-webkit-transform-origin: center left;

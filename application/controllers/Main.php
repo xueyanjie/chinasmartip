@@ -93,4 +93,12 @@ class Main extends CI_Controller {
 		$this->load->view("page_events_list_en", $data);
 	}
 
+	public function partnerdetail() {
+		$this->load->view("partnerdetail");
+	}
+
+	public function partnerdetail_en() {
+		$this->load->view("partnerdetail_en");
+	}
+
 }
