@@ -20,8 +20,8 @@
 	.partenterAva{position: relative;width: 173px;float: left}
 	.partenterAva .imgava{display:block;width: 125px;height: 125px;border-radius: 50%;-webkit-border-radius: 50%;border:2px solid #e3cbab;overflow: hidden;position: relative;z-index: 2;}
 	.avabg{width: 139px;height: 142px;background: url(<?php echo base_url();?>static/i/avabg.png) no-repeat 50% 50%;position: absolute;top: 0px;left: 0;}
-	.partinfo .p2224{font-size: 22px;height: 24px;color:#d2ac79;padding-top: 23px;padding-bottom: 13px; }
-	.partinfo .p1624{font-size: 16px;line-height: 24px;}
+	.partinfo .p2224{font-size: 22px;height: 30px;color:#d2ac79;padding-top: 23px;padding-bottom: 13px; }
+	.partinfo .p1624{font-size: 16px;line-height: 30px;}
 	.color9{color: #999999}
 	.partnerDetailLi{padding-left: 15px;position: relative;font-size: 16px;line-height: 24px;color: #999999;}
 	.partnerDetailLi::before{content: "";width: 5px;height: 5px;border-radius: 50%;background: #999;position: absolute;top:10px;left: 5px;}
