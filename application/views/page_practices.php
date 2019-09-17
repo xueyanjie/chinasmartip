@@ -3,7 +3,7 @@
 	<head>
 		<script type="text/javascript">
 			var pageName = 'practices';
-			var toPageName = 'parctices_en';
+			var toPageName = 'practices_en';
 			var lang = 'CN';
 		</script>
 		<!--#include file="header.html"-->
@@ -27,7 +27,7 @@
 							<!--<div class="phold phold105"></div>-->
 							<!--<img src="static/i/making.png" class="imgmap"/>-->
 							<div class="phold phold10"></div>
-							<img src="<?php echo base_url();?>static/i/practices.gif" class="imgmap"/>
+							<img src="<?php echo base_url();?>static/i/practices.jpg" class="imgmap"/>
 						</div>
 					</div>
 				</div>

@@ -27,7 +27,7 @@
 							<!--<div class="phold phold105"></div>-->
 							<!--<img src="static/i/making.png" class="imgmap"/>-->
 							<div class="phold phold10"></div>
-							<img src="<?php echo base_url();?>static/i/practicesEN.gif" class="imgmap"/>
+							<img src="<?php echo base_url();?>static/i/practicesEN.jpg" class="imgmap"/>
 						</div>
 					</div>
 				</div>
