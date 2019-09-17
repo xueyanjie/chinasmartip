@@ -49,18 +49,34 @@
 								<div class="avabg"></div>
 							</div>
 							<div class="partinfo fl">
-								<p class="p2224">谷惠敏</p>
-								<p class="p1624 color9">合伙人</p>
-								<p class="p1624 color9">专利代理人</p>
+								<p class="p2224"><?php echo isset($name) ? $name : ''; ?></p>
+								<?php
+								if (isset($title)) {
+									foreach ($title as $t) {
+										echo '<p class="p1624 color9">' . $t . '</p>';
+									}
+								}
+								?>
+<!--								<p class="p1624 color9">合伙人</p>-->
 							</div>
 						</div>
 						<div class="partnerDetailCon" style="font-size: 16px;line-height: 30px;">
-							<p class="partnerDetailLi">10 年执业经验</p>
-							<p class="partnerDetailLi">10 年执业经验</p>
-							<p class="partnerDetailLi">10 年执业经验</p>
-							<p class="p1624 color9">硕士学位，知识产权法，伦敦大学学院（英国），2011年</p>
-							<p class="p1624 color9">硕士学位，知识产权法，伦敦大学学院（英国），2011年</p>
-							<p class="p1624 color9">硕士学位，知识产权法，伦敦大学学院（英国），2011年</p>
+							<?php
+							if (isset($exp1)) {
+								foreach ($exp1 as $e1) {
+									echo '<p class="partnerDetailLi">' . $e1 . '</p>';
+								}
+							}
+							?>
+<!--							<p class="partnerDetailLi">10 年执业经验</p>-->
+							<?php
+							if (isset($exp2)) {
+								foreach ($exp2 as $e2) {
+									echo '<p class="p1624 color9">' . $e1 . '</p>';
+								}
+							}
+							?>
+<!--							<p class="p1624 color9">硕士学位，知识产权法，伦敦大学学院（英国），2011年</p>-->
 						</div>
 					</div>
 				</div>
