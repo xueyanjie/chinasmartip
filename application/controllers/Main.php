@@ -105,7 +105,7 @@ class Main extends CI_Controller {
 	public function guhuimin() {
 		$data = array(
 			'name' => '谷惠敏',
- 			'photo' => '',
+ 			'photo' => 'guhuimin.jpg',
 			'title' => array('合伙人', '专利代理人'),
 			'exp1' => array('21年实践经验'),
 			'exp2' => array('电子、计算机'),
