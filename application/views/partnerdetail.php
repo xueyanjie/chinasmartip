@@ -72,7 +72,7 @@
 							<?php
 							if (isset($exp2)) {
 								foreach ($exp2 as $e2) {
-									echo '<p class="p1624 color9">' . $e1 . '</p>';
+									echo '<p class="p1624 color9">' . $e2 . '</p>';
 								}
 							}
 							?>
