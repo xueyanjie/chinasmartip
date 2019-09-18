@@ -18,7 +18,11 @@
 	.partenterDetail{padding-left: 17px;padding-top: 5px;}
 	.partnerDetailTop{padding-bottom: 42px;}
 	.partenterAva{position: relative;width: 173px;float: left}
-	.partenterAva .imgava{display:block;width: 125px;height: 125px;border-radius: 50%;-webkit-border-radius: 50%;border:2px solid #e3cbab;overflow: hidden;position: relative;z-index: 2;}
+	.partenterAva .imgava{
+		display:block;width: 125px;height: 125px;border-radius: 50%;-webkit-border-radius: 50%;
+		border:2px solid #e3cbab;overflow: hidden;position: relative;z-index: 2;
+		margin:14px 0 0 13px;
+	}
 	.avabg{width: 139px;height: 142px;background: url(<?php echo base_url();?>static/i/avabg.png) no-repeat 50% 50%;position: absolute;top: 0px;left: 0;}
 	.partinfo .p2224{font-size: 22px;height: 24px;color:#d2ac79;padding-top: 23px;padding-bottom: 13px; }
 	.partinfo .p1624{font-size: 16px;line-height: 24px;}
