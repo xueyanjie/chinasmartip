@@ -2,8 +2,8 @@
 <html>
 <head>
 	<script type="text/javascript">
-		var pageName = 'partnerdetail';
-		var toPageName = 'partnerdetail_en';
+		var pageName = '<?php echo $pageName; ?>';
+		var toPageName = '<?php echo $pageName2; ?>';
 		var lang = 'CN';
 	</script>
 	<!--#include file="header.html"-->

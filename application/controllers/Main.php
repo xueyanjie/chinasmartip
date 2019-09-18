@@ -109,12 +109,23 @@ class Main extends CI_Controller {
 			'title' => array('合伙人', '专利代理人'),
 			'exp1' => array('21年实践经验'),
 			'exp2' => array('电子、计算机'),
+			'pageName' => 'guhuimin',
+			'pageName2' => 'guhuimin_en',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
 
 	public function guhuimin_en() {
-
+		$data = array(
+			'name' => 'Ms. Huimin Gu',
+			'photo' => 'guhuimin.jpg',
+			'title' => array('Partner', 'atent agent'),
+			'exp1' => array('21 years of experience'),
+			'exp2' => array('Electronic & computer technologies'),
+			'pageName' => 'guhuimin_en',
+			'pageName2' => 'guhuimin',
+		);
+		$this->load->view("partnerdetail", $data);
 	}
 
 }
