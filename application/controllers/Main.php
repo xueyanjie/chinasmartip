@@ -106,9 +106,9 @@ class Main extends CI_Controller {
 		$data = array(
 			'name' => '谷惠敏',
  			'photo' => 'guhuimin.jpg',
-			'title' => array('合伙人', '专利代理人'),
-			'exp1' => array('21年实践经验','21年实践经验'),
-			'exp2' => array('电子、计算机','测试'),
+			'tags' => array('tag1', 'tag2'),
+			'titles' => array('test1', 'test2'),
+			'contents' => array('1111','2222'),
 			'pageName' => 'guhuimin',
 			'pageName2' => 'guhuimin_en',
 		);
@@ -119,9 +119,9 @@ class Main extends CI_Controller {
 		$data = array(
 			'name' => 'Ms. Huimin Gu',
 			'photo' => 'guhuimin.jpg',
-			'title' => array('Partner', 'atent agent'),
-			'exp1' => array('21 years of experience'),
-			'exp2' => array('Electronic & computer technologies'),
+			'tags' => array('tag1', 'tag2'),
+			'titles' => array('test1', 'test2'),
+			'contents' => array('1111','2222'),
 			'pageName' => 'guhuimin_en',
 			'pageName2' => 'guhuimin',
 		);

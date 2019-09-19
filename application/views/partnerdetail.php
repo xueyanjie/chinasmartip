@@ -55,8 +55,8 @@
 							<div class="partinfo fl">
 								<p class="p2224"><?php echo isset($name) ? $name : ''; ?></p>
 								<?php
-								if (isset($title)) {
-									foreach ($title as $t) {
+								if (isset($tags)) {
+									foreach ($tags as $t) {
 										echo '<p class="p1624 color9">' . $t . '</p>';
 									}
 								}
@@ -64,24 +64,16 @@
 <!--								<p class="p1624 color9">合伙人</p>-->
 							</div>
 						</div>
-						<div class="partnerDetailCon" style="font-size: 16px;line-height: 30px;">
-							<?php
-							if (isset($exp1)) {
-								foreach ($exp1 as $e1) {
-									echo '<p class="partnerDetailLi">' . $e1 . '</p>';
-								}
-							}
-							?>
-<!--							<p class="partnerDetailLi">10 年执业经验</p>-->
-							<?php
-							if (isset($exp2)) {
-								foreach ($exp2 as $e2) {
-									echo '<p class="p1624 color9">' . $e2 . '</p>';
-								}
-							}
-							?>
-<!--							<p class="p1624 color9">硕士学位，知识产权法，伦敦大学学院（英国），2011年</p>-->
-						</div>
+
+						<!-- detail information -->
+						<div class="phold phold20"></div>
+						<?php
+						foreach ($titles as $k => $title) {
+							$content = $contents[$k];
+							echo '<p class="p_title">' . $title . '</p>';
+							echo '<p class="p14l22">' . $content . '</p>';
+						}
+						?>
 					</div>
 				</div>
 			</div>
