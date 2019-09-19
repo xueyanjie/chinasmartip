@@ -107,8 +107,8 @@ class Main extends CI_Controller {
 			'name' => '谷惠敏',
  			'photo' => 'guhuimin.jpg',
 			'title' => array('合伙人', '专利代理人'),
-			'exp1' => array('21年实践经验'),
-			'exp2' => array('电子、计算机'),
+			'exp1' => array('21年实践经验','21年实践经验'),
+			'exp2' => array('电子、计算机','测试'),
 			'pageName' => 'guhuimin',
 			'pageName2' => 'guhuimin_en',
 		);
