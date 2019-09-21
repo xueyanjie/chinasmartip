@@ -42,7 +42,7 @@
 										<p class="p14">21年实践经验</p>
 										<p class="p14">电子、计算机</p>
 									</li>
-									<li id="p_jyx" class="li_partners" page="<?php echo base_url()?>Main/jiangjuxing">
+									<li id="p_jyx" class="li_partners" page="<?php echo base_url()?>Main/jiangyuxing">
 										<span class="circle"></span>
 										<p class="p_partenter">蒋宇星</p>
 										<div class="phold phold8"></div>
@@ -82,7 +82,7 @@
 										<span class="circle"></span>
 										<p class="p_partenter">龚泳梅 博士</p>
 										<div class="phold phold8"></div>
-										<p class="p14">9年实践经验</p>
+										<p class="p14">15年实践经验</p>
 										<p class="p14">专利文件撰写、专利申请、复审和无效</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/sangtao">
@@ -96,7 +96,7 @@
 										<span class="circle"></span>
 										<p class="p_partenter">桑涛</p>
 										<div class="phold phold8"></div>
-										<p class="p14">2年实践经验</p>
+										<p class="p14">12年实践经验</p>
 										<p class="p14">业务发展、经营策略、管理咨询</p>
 									</li>
 								</ul>
