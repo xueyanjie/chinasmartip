@@ -35,7 +35,7 @@
 							</div>
 							<div class="">
 								<ul class="partnerul cl">
-									<li  class="li_partners" page="p_guhuimin.shtml">
+									<li  class="li_partners" page="<?php echo base_url()?>Main/guhuimin">
 										<span class="circle"></span>
 										<p class="p_partenter">谷惠敏</p>
 										<div class="phold phold8"></div>
