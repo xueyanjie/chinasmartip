@@ -344,6 +344,105 @@ class Main extends CI_Controller
 		$this->load->view("partnerdetail", $data);
 	}
 
+	public function suyan()
+	{
+		$data = array(
+			'name' => '苏琰 博士',
+			'photo' => 'suyan.jpg',
+			'tags' => array('合伙人'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'专利申请和复审<br/>专利无效和诉讼<br/>知识产权商业化、专利运营',
+				'化学、化工',
+				'苏琰博士主要为客户建立和获得知识产权提供帮助，给予客户针对知识产权有效性的分析意见，参与知识产权诉讼，协助客户维护其知识产权的合法权益。
+								<br/><br/>苏琰博士是《专利池的运营与法律规制》一书的作者，是知识产权及无形资产运营领域的专业人士，也致力于知识产权商业化以及无形资产运营平台的开发和推广。服务的客户包括国内外中、小企业，高等院校以及大型跨国公司。',
+				'<span class="ft_year">1997-2001</span><span class="ft_school" style="width:145px;">北京化工大学</span><span class="ft_major" style="width:101px;">高分子材料</span><span class="ft_degree">学士学位</span>
+								<br/><span class="ft_year">2002-2007</span><span class="ft_school" style="width:145px;">英国曼彻斯特大学</span><span class="ft_major" style="width:101px;">高分子材料</span><span class="ft_degree">博士学位</span>
+								<br/><span class="ft_year">2009-2011</span><span class="ft_school" style="width:145px;">英国伦敦大学学院</span><span class="ft_major" style="width:101px;">知识产权法</span><span class="ft_degree">硕士学位</span>',
+			),
+			'pageName' => 'suayn',
+			'pageName2' => 'suyan_en',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+	public function suyan_en()
+	{
+		$data = array(
+			'name' => 'Dr. Yan Su',
+			'photo' => 'suyan.jpg',
+			'tags' => array('Partner'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent prosecution & re-examination<br/>Patent invalidation & litigation<br/>IP commercialization<br/>Patent operation',
+				'Chemistry, chemical engineering',
+				'Dr. Su is devoted to training and building a dedicated team and developing strong relationships with clients.  Dr. Su has helped a wide variety of clients, including small enterprises, universities and multinational enterprises, obtain, protect and enforce IP rights in China.  She also provides validity, infringement and enforcement opinions to clients, and advises clients on the creation, management and leverage of their IP portfolios.
+						<br/><br/>
+						In addition, Dr. Su is the author of “The management and Legal Regulation of Patent Pools” and is a professional IP and intangible assets manager.  She is also devoted to the commercialization of IP and the development of an intangible asset operation platform.',
+				'LLM, Intellectual Property Law, University of London (UK), 2011.<br/>
+						Ph.D., Polymer Materials, University of Manchester (UK), 2007.<br/>
+						B.S., Polymer Materials, Beijing University of Chemical Technology, 2001.',
+			),
+			'pageName' => 'suyan_en',
+			'pageName2' => 'suyan',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+
+	public function gongyongmei()
+	{
+		$data = array(
+			'name' => '龚泳梅 博士',
+			'photo' => 'gongyongmei.jpg',
+			'tags' => array('合伙人', '专利顾问'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'专利文件撰写<br/>专利申请<br/>复审和无效',
+				'化学和生物化学<br/>生命科学、生物材料、医药、医疗器械、食品、化妆品和普通化学',
+				'合伙人		北京汉智嘉成知识产权代理有限公司	2019至今
+					<br/>专利顾问	睿盟希资本								2019至今
+					<br/>专利顾问	中原信达知识产权代理有限责任公司	2012-2018
+					<br/>项目经理	北京华方科泰医药有限公司				2010-2012',
+				'<span class="ft_year">2009-2010</span><span class="ft_school" style="width:145px;">Washington University, Seattle, WA USA</span><span class="ft_major" 
+					style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
+					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:145px;">Simon Fraser University, Burnaby BC Canada</span><span class="ft_major" 
+						style="width:101px;">生物化学</span><span class="ft_degree">博士</span>
+					<br/><span class="ft_year">1999-2003</span><span class="ft_school" style="width:145px;">北京大学</span><span class="ft_major" 
+						style="width:101px;">化学</span><span class="ft_degree">本科</span>',
+			),
+			'pageName' => 'gongyongmei',
+			'pageName2' => 'gongyongmei_en',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+	public function gongyongmei_en()
+	{
+		$data = array(
+			'name' => 'Ms. Chunyan Huan',
+			'photo' => 'gongyongmei.jpg',
+			'tags' => array('Partner', 'Patent Consultant'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent Preparation &Prosecution<br/>Patent Re-examination & Invalidation',
+				'Biochemistry & Chemistry<br/>Life Science, Biomaterials, Pharmaceuticals, Medical Device, Food, Cosmetics and General Chemistry',
+				'Dr. Gong worked in one of the Chinese leading IP firms, China Sinda, for many years before she joined China Smart as a partner. 
+				She represented domestic and foreign clients in all aspects of patent practice including drafting, prosecution, reexamination, invalidation, providing FTO and consultation. 
+				She specializes in dealing with complex issues in the biotech area.',
+				'Postdoctoral in Biochemistry, University of Washington, Seattle, WA USA, 2010-2010.
+				<br/>PhD in Biochemistry, Simon Fraser University, Burnaby, BC Canada, 2003-2009
+				<br/>BS in Chemistry, Peking University, Beijing China, 1999-2003',
+			),
+			'pageName' => 'gongyongmei_en',
+			'pageName2' => 'gongyongmei',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+
+
+
 
 	public function demo()
 	{
