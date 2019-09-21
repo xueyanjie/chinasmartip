@@ -175,7 +175,16 @@ class Main extends CI_Controller
 			'photo' => 'huanchunyan.jpg',
 			'tags' => array('Partner', 'Patent Attorney'),
 			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
-			'contents' => array('1111', '2222'),
+			'contents' => array(
+				'Patent prosecution & re-examination<br/>Patent invalidation & litigation',
+				'Chemistry, chemical engineering, materials',
+				'Ms. Huan has 13 years of experience in patent practice.  She has handled about 2,000 patent cases so far on behalf of domestic and foreign clients.<br/><br/>
+						Ms. Huan is mainly involved in patent prosecution, re-examination and invalidation in the fields of chemistry, chemical engineering and materials.  
+						She also provides professional advises on patent infringement and validity.<br/><br/>
+						Thanks to her comprehensive and profound knowledge in both technologies and patent practice, she has helped many clients obtain stable patent rights in China.
+				',
+				'M.S., Chemical Engineering, Tsinghua University, 2004.<br/>B.S., Chemistry, Northeast Electrical Institute, 2001.',
+			),
 			'pageName' => 'huanchunyan_en',
 			'pageName2' => 'huanchunyan',
 		);
