@@ -85,7 +85,7 @@
 										<p class="p14">15年实践经验</p>
 										<p class="p14">专利文件撰写、专利申请、复审和无效</p>
 									</li>
-									<li class="li_partners" page="<?php echo base_url()?>Main/sangtao">
+									<li class="li_partners" page="<?php echo base_url()?>Main/zhangyongzhe">
 										<span class="circle"></span>
 										<p class="p_partenter">张永喆</p>
 										<div class="phold phold8"></div>
