@@ -110,6 +110,7 @@
 									</li>
 
 									<!-- ADD 2018-03-22 -->
+
 									<li class="li_partners" page="">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Simon Cai</p>
