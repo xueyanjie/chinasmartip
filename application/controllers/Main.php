@@ -404,11 +404,13 @@ class Main extends CI_Controller
 					<br/>专利顾问	睿盟希资本								2019至今
 					<br/>专利顾问	中原信达知识产权代理有限责任公司	2012-2018
 					<br/>项目经理	北京华方科泰医药有限公司				2010-2012',
-				'<span class="ft_year">2009-2010</span><span class="ft_school" style="width:145px;">Washington University, Seattle, WA USA</span><span class="ft_major" 
-					style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
-					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:145px;">Simon Fraser University, Burnaby BC Canada</span><span class="ft_major" 
+				'<span class="ft_year">2009-2010</span><span class="ft_school" style="width:305px;">Washington University, Seattle, WA USA</span>
+					<span class="ft_major" style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
+					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:302px;">Simon 
+					Fraser University, Burnaby BC Canada</span><span class="ft_major" 
 						style="width:101px;">生物化学</span><span class="ft_degree">博士</span>
-					<br/><span class="ft_year">1999-2003</span><span class="ft_school" style="width:145px;">北京大学</span><span class="ft_major" 
+					<br/><span class="ft_year">1999-2003</span><span class="ft_school" style="width:304px;">北京大学
+					</span><span class="ft_major" 
 						style="width:101px;">化学</span><span class="ft_degree">本科</span>',
 			),
 			'pageName' => 'gongyongmei',
@@ -440,44 +442,100 @@ class Main extends CI_Controller
 		$this->load->view("partnerdetail", $data);
 	}
 
-
-
-
-
-	public function demo()
+	public function zhangyongzhe()
 	{
 		$data = array(
-			'name' => '郇春艳',
-			'photo' => 'huanchunyan.jpg',
-			'tags' => array('合伙人', '专利代理人'),
+			'name' => '张永喆',
+			'photo' => 'zhangyongzhe.jpg',
+			'tags' => array('专利工程师'),
 			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
 			'contents' => array(
-				'',
-				'',
-				'',
-				'',
+				'专利文件撰写<br/>专利申请<br/>复审和无效',
+				'机械',
+				'2011年至今一直从事专利代理方面的工作，熟悉专利文件撰写、审查意见答复；专利复审、无效；专利侵权分析；知识产权咨询、检索业务等，积累了丰富的专利代理经验。',
+				'<span class="ft_year">2007-2011</span><span class="ft_school" style="width:145px;">北京印刷学院
+					</span><span class="ft_major" 
+						style="width:101px;">自动化</span><span class="ft_degree">本科</span>',
 			),
-			'pageName' => 'huanchunyan',
-			'pageName2' => 'huanchunyan_en',
+			'pageName' => 'zhangyongzhe',
+			'pageName2' => 'zhangyongzhe_en',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
 
-	public function demo_en()
+	public function zhangyongzhe_en()
 	{
 		$data = array(
-			'name' => 'Ms. Chunyan Huan',
-			'photo' => 'huanchunyan.jpg',
-			'tags' => array('Partner', 'Patent Attorney'),
+			'name' => 'Mr. Yongzhe Zhang',
+			'photo' => 'zhangyongzhe.jpg',
+			'tags' => array('Partner', 'Patent Engineer'),
 			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
 			'contents' => array(
-				'',
-				'',
-				'',
-				'',
+				'Patent Drafting &Prosecution<br/>Patent Re-examination & Invalidation',
+				'Mechanics',
+				'Mr. Zhang has worked as a patent engineer since 2011. He is experienced in patent drafting and prosecution, 
+				including pre-filing search and opinions and responding to Office Actions. 
+				Mr. Zhang is heavily involved in patent mining and deployment for small-size companies and has also accumulated experience 
+				in patent invalidation and providing FTOs. ',
+				'BS in Automation, Beijing Institute of Graphic Communication, 2007-2011',
 			),
-			'pageName' => 'huanchunyan_en',
-			'pageName2' => 'huanchunyan',
+			'pageName' => 'zhangyongzhe_en',
+			'pageName2' => 'zhangyongzhe',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+
+
+	public function sangtao()
+	{
+		$data = array(
+			'name' => '桑涛',
+			'photo' => 'sangtao.jpg',
+			'tags' => array('北美业务主管'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'业务发展<br/>经营策略<br/>管理咨询',
+				'机器智能、视觉机器人、自动化、项目管理、产品设计',
+				'桑涛先生有超过十五年为中大型国际科技公司工作的经验。其中有五年，他作为加拿大公司外派经理人常驻亚洲管理亚洲业务。桑先生对企业国际化的路程有深度的了解。他也是多元企业文化管理方面的资深管理人。
+				现常驻加拿大，作为汉智嘉诚在北美的重要布局，桑先生通过他多年在企业的管理经验，为客户提供商务及知识产权战略方面的咨询。',
+				'<span class="ft_year">2015-2017</span><span class="ft_school" style="width:300px;">University of Fredericton, Canada
+					</span><span class="ft_major" 
+						style="width:101px;">Global Leadership</span><span class="ft_degree">MBA</span><br/>
+						<span class="ft_year">2002-2005</span><span class="ft_school" style="width:300px;">University of British Columbia, Canada
+					</span><span class="ft_major" 
+						style="width:101px;">Vision Robotics</span><span class="ft_degree">M.S.</span><br/>
+						<span class="ft_year">1997-2002</span><span class="ft_school" style="width:300px;">University of Waterloo, Canada
+					</span><span class="ft_major" 
+						style="width:101px;">Systems Design Engineering</span><span class="ft_degree">B.S.</span>',
+			),
+			'pageName' => 'sangtao',
+			'pageName2' => 'sangtao_en',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+	public function sangtao_en()
+	{
+		$data = array(
+			'name' => 'Mr. Tao Sang',
+			'photo' => 'sangtao.jpg',
+			'tags' => array('Head of North American Operations'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Business Development <br/>Business Strategy<br/>Management Consulting',
+				'Machine Intelligence<br/>Vision Robotics<br/>Automation<br/>Project Management<br/>Product Design',
+				'Mr. Sang has over 10 years of management experience with international tech companies. 
+				Based in Canada, he started as a product design engineer then moved into management roles dealing with international projects in Asia. 
+				Mr. Sang also has worked for Canadian company living in Asia as an EXPAT in management roles such as regional operations manager and genera manager. 
+				Mr. Sang has strong technical background combined with international management experience in the industry. 
+				His experience and expertise help the clients to align their IP strategy with business strategy and achieve overall business success.',
+				'MBA, Global Leadership, University of Fredericton, Canada, 2015-2017
+					<br/>M.S., Vision Robotics, University of British Columbia, Canada, 2002-2005
+					<br/>B.S., Systems Design Engineering, University of Waterloo, Canada, 1997-2002',
+			),
+			'pageName' => 'sangtao_en',
+			'pageName2' => 'sangtao',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
