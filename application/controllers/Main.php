@@ -126,9 +126,16 @@ class Main extends CI_Controller
 		$data = array(
 			'name' => '谷惠敏',
 			'photo' => 'guhuimin.jpg',
-			'tags' => array('tag1', 'tag2'),
-			'titles' => array('test1', 'test2'),
-			'contents' => array('1111', '2222'),
+			'tags' => array('合伙人', '专利代理人'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'专利申请和复审<br/>专利无效和诉讼',
+				'计算机、电子',
+				'谷惠敏拥有21年的专利实践经验，至今处理专利案件近3000件。在加入汉智嘉成之前，曾就职于国内知名的知识产权法律服务事务所。
+						<br/><br/>谷惠敏主要参与和负责客户在电子、计算机应用等相关领域的国内、外专利案件在申请和审查阶段的各项工作，以及授权后的权利行使。此外，她熟悉美国、日本和欧洲等国家和地区的专利实践，协助客户在外国获得专利权保护。
+						<br/><br/>在办案过程中，谷惠敏始终注重对案件技术的理解和与客户的沟通，为客户争取最大的利益。',
+				'<span class="ft_year">1990-1994</span><span class="ft_school">东南大学自动化工程</span><span class="ft_degree">学士学位</span>',
+			),
 			'pageName' => 'guhuimin',
 			'pageName2' => 'guhuimin_en',
 		);
@@ -140,9 +147,18 @@ class Main extends CI_Controller
 		$data = array(
 			'name' => 'Ms. Huimin Gu',
 			'photo' => 'guhuimin.jpg',
-			'tags' => array('tag1', 'tag2'),
-			'titles' => array('test1', 'test2'),
-			'contents' => array('1111', '2222'),
+			'tags' => array('Partner', 'Patent Attorney'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent prosecution & re-examination<br/>Patent invalidation & litigation',
+				'Electronic & computer technologies',
+				'Ms. Gu has 21 years of experience in patent practice.  She has handled nearly 3,000 patent cases so far.  Before she joined China Smart IP, she worked as a senior patent attorney at a well-known IP law firm in China.
+						<br/><br/>
+						Ms. Gu is mainly involved in patent prosecution, re-examination and invalidation in the fields of electronic and computer technologies.  She is also familiar with patent practice overseas and has assisted clients in obtaining patent rights in many countries.
+						<br/><br/>
+						Mr. Gu always pays attention to the understanding of technology and the communication with client, in order to protect the best interests of clients.',
+				'B.S., Automatic Engineering, Southeast University,1994.',
+			),
 			'pageName' => 'guhuimin_en',
 			'pageName2' => 'guhuimin',
 		);
