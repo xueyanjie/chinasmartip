@@ -61,7 +61,7 @@ $(function(){
 	bindClick('.li_partners', function(self){
 		var addr = self.attr('page');
 		// console.log(addr);
-		// location.href=addr;//暂时注释 2018-03-22
+		location.href=addr;  //暂时注释 2018-03-22,  放开 2019-09-21
 	});
 	//$('#p_jyx').click(function(){location.href = 'p_jiangyuxing.shtml';});
 	//$('#p_jyx_en').click(function(){location.href = 'p_jiangyuxing_en.shtml';});
