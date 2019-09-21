@@ -406,10 +406,10 @@ class Main extends CI_Controller
 					<br/>项目经理	北京华方科泰医药有限公司				2010-2012',
 				'<span class="ft_year">2009-2010</span><span class="ft_school" style="width:305px;">Washington University, Seattle, WA USA</span>
 					<span class="ft_major" style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
-					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:302px;">Simon 
+					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:306px;">Simon 
 					Fraser University, Burnaby BC Canada</span><span class="ft_major" 
 						style="width:101px;">生物化学</span><span class="ft_degree">博士</span>
-					<br/><span class="ft_year">1999-2003</span><span class="ft_school" style="width:304px;">北京大学
+					<br/><span class="ft_year">1999-2003</span><span class="ft_school" style="width:307px;">北京大学
 					</span><span class="ft_major" 
 						style="width:101px;">化学</span><span class="ft_degree">本科</span>',
 			),
@@ -499,15 +499,17 @@ class Main extends CI_Controller
 				'机器智能、视觉机器人、自动化、项目管理、产品设计',
 				'桑涛先生有超过十五年为中大型国际科技公司工作的经验。其中有五年，他作为加拿大公司外派经理人常驻亚洲管理亚洲业务。桑先生对企业国际化的路程有深度的了解。他也是多元企业文化管理方面的资深管理人。
 				现常驻加拿大，作为汉智嘉诚在北美的重要布局，桑先生通过他多年在企业的管理经验，为客户提供商务及知识产权战略方面的咨询。',
-				'<span class="ft_year">2015-2017</span><span class="ft_school" style="width:300px;">University of Fredericton, Canada
+				'<span class="ft_year">2015-2017</span><span class="ft_school" style="width:270px;">University of Fredericton, Canada
 					</span><span class="ft_major" 
-						style="width:101px;">Global Leadership</span><span class="ft_degree">MBA</span><br/>
-						<span class="ft_year">2002-2005</span><span class="ft_school" style="width:300px;">University of British Columbia, Canada
+						style="width:200px;">Global Leadership</span><span class="ft_degree">MBA</span><br/>
+						<span class="ft_year">2002-2005</span><span class="ft_school" style="width:270px;">University
+						 of British Columbia, Canada
 					</span><span class="ft_major" 
-						style="width:101px;">Vision Robotics</span><span class="ft_degree">M.S.</span><br/>
-						<span class="ft_year">1997-2002</span><span class="ft_school" style="width:300px;">University of Waterloo, Canada
+						style="width:200px;">Vision Robotics</span><span class="ft_degree">M.S.</span><br/>
+						<span class="ft_year">1997-2002</span><span class="ft_school" style="width:270px;">University
+						 of Waterloo, Canada
 					</span><span class="ft_major" 
-						style="width:101px;">Systems Design Engineering</span><span class="ft_degree">B.S.</span>',
+						style="width:200px;">Systems Design Engineering</span><span class="ft_degree">B.S.</span>',
 			),
 			'pageName' => 'sangtao',
 			'pageName2' => 'sangtao_en',
