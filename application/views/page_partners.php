@@ -42,40 +42,62 @@
 										<p class="p14">21年实践经验</p>
 										<p class="p14">电子、计算机</p>
 									</li>
-									<li id="p_jyx" class="li_partners" page="p_jiangyuxing.shtml">
+									<li id="p_jyx" class="li_partners" page="<?php echo base_url()?>Main/jiangjuxing">
 										<span class="circle"></span>
 										<p class="p_partenter">蒋宇星</p>
 										<div class="phold phold8"></div>
 										<p class="p14">11年实践经验</p>
 										<p class="p14">机械、电子</p>
 									</li>
-									<li class="li_partners" page="p_jiangjin.shtml">
+									<li class="li_partners" page="<?php echo base_url()?>Main/jiangjin">
 										<span class="circle"></span>
 										<p class="p_partenter">姜劲</p>
 										<div class="phold phold8"></div>
 										<p class="p14">10年实践经验</p>
 										<p class="p14">电子、电力、机械、通信</p>
 									</li>
-									<li class="li_partners" page="p_suyan.shtml">
+									<li class="li_partners" page="<?php echo base_url()?>Main/suyan">
 										<span class="circle"></span>
 										<p class="p_partenter">苏琰博士</p>
 										<div class="phold phold8"></div>
 										<p class="p14">10年实践经验</p>
 										<p class="p14">化学、化工</p>
 									</li>
-									<li class="li_partners" page="p_huanchunyan.shtml">
+									<li class="li_partners" page="<?php echo base_url()?>Main/huanchunyan">
 										<span class="circle"></span>
 										<p class="p_partenter">郇春艳</p>
 										<div class="phold phold8"></div>
 										<p class="p14">13 年实践经验</p>
 										<p class="p14">化学、化工、材料学</p>
 									</li>
-									<li class="li_partners" page="p_jinjie.shtml">
+									<li class="li_partners" page="<?php echo base_url()?>Main/jinjie">
 										<span class="circle"></span>
 										<p class="p_partenter">金洁</p>
 										<div class="phold phold8"></div>
 										<p class="p14">12年实践经验</p>
 										<p class="p14">计算机、通信</p>
+									</li>
+									<!-- add -->
+									<li class="li_partners" page="<?php echo base_url()?>Main/gongyongmei">
+										<span class="circle"></span>
+										<p class="p_partenter">龚泳梅 博士</p>
+										<div class="phold phold8"></div>
+										<p class="p14">9年实践经验</p>
+										<p class="p14">专利文件撰写、专利申请、复审和无效</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/sangtao">
+										<span class="circle"></span>
+										<p class="p_partenter">张永喆</p>
+										<div class="phold phold8"></div>
+										<p class="p14">8年实践经验</p>
+										<p class="p14">专利文件撰写、专利申请、复审和无效</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/sangtao">
+										<span class="circle"></span>
+										<p class="p_partenter">桑涛</p>
+										<div class="phold phold8"></div>
+										<p class="p14">2年实践经验</p>
+										<p class="p14">业务发展、经营策略、管理咨询</p>
 									</li>
 								</ul>
 							</div>
