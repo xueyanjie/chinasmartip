@@ -102,11 +102,18 @@
 										<p class="p_partenter">Mr. Tao Sang</p>
 										<div class="phold phold8"></div>
 										<p class="p14 p14ex">15 years of experience</p>
-										<p class="p14 p14ex">Machine Intelligence, Vision Robot, Automation</p>
+										<p class="p14 p14ex">Machine Intelligence, Vision Robotics & Automation</p>
+									</li>
+
+									<li class="li_partners" page="<?php echo base_url(); ?>Main/gaofenfang_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Ms. Fenfang Gao</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">9 years of experience</p>
+										<p class="p14 p14ex">Biochemistry, Pharmaceutical, Agriculture & Food</p>
 									</li>
 
 									<!-- ADD 2018-03-22 -->
-
 									<li class="li_partners" page="">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Simon Cai</p>
