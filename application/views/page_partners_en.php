@@ -48,14 +48,14 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Daniel Jiang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">11 years of experience</p>
+										<p class="p14 p14ex">15 years of experience</p>
 										<p class="p14 p14ex">Mechanical & electrical engineering</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/jiangjin_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Jin Jiang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">10 years of experience</p>
+										<p class="p14 p14ex">12 years of experience</p>
 										<p class="p14 p14ex">Electrical automation & engineering</p>
 									</li>
 								</ul>

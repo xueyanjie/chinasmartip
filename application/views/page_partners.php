@@ -46,14 +46,14 @@
 										<span class="circle"></span>
 										<p class="p_partenter">蒋宇星</p>
 										<div class="phold phold8"></div>
-										<p class="p14">11年实践经验</p>
+										<p class="p14">15年实践经验</p>
 										<p class="p14">机械、电子</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/jiangjin">
 										<span class="circle"></span>
 										<p class="p_partenter">姜劲</p>
 										<div class="phold phold8"></div>
-										<p class="p14">10年实践经验</p>
+										<p class="p14">12年实践经验</p>
 										<p class="p14">电子、电力、机械、通信</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/suyan">
