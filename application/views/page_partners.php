@@ -99,7 +99,7 @@
 										<p class="p14">15年实践经验</p>
 										<p class="p14">机器智能、视觉机器人、自动化</p>
 									</li>
-									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang">
+									<li class="li_partners" page="">
 										<span class="circle"></span>
 										<p class="p_partenter">高芬芳</p>
 										<div class="phold phold8"></div>
