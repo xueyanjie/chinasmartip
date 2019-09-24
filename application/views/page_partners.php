@@ -82,22 +82,22 @@
 										<span class="circle"></span>
 										<p class="p_partenter">龚泳梅 博士</p>
 										<div class="phold phold8"></div>
-										<p class="p14">15年实践经验</p>
-										<p class="p14">专利文件撰写、专利申请、复审和无效</p>
+										<p class="p14">7年实践经验</p>
+										<p class="p14">化学、医药、生物科技</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/zhangyongzhe">
 										<span class="circle"></span>
 										<p class="p_partenter">张永喆</p>
 										<div class="phold phold8"></div>
 										<p class="p14">8年实践经验</p>
-										<p class="p14">专利文件撰写、专利申请、复审和无效</p>
+										<p class="p14">机械、电子</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/sangtao">
 										<span class="circle"></span>
 										<p class="p_partenter">桑涛</p>
 										<div class="phold phold8"></div>
-										<p class="p14">12年实践经验</p>
-										<p class="p14">业务发展、经营策略、管理咨询</p>
+										<p class="p14">15年实践经验</p>
+										<p class="p14">机器智能、视觉机器人、自动化</p>
 									</li>
 								</ul>
 							</div>
