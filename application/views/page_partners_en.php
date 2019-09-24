@@ -87,26 +87,22 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Dr. Yongmei Gong</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">15 years of experience</p>
-										<p class="p14 p14ex">Patent Preparation &Prosecution
-											<br/>Patent Re-examination & Invalidation</p>
+										<p class="p14 p14ex">7 years of experience</p>
+										<p class="p14 p14ex">Chemistry, Medicine, Biotechnology</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/zhangyongzhe_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Yongzhe Zhang</p>
 										<div class="phold phold8"></div>
 										<p class="p14 p14ex">8 years of experience</p>
-										<p class="p14 p14ex">Patent Drafting &Prosecution
-											<br/>Patent Re-examination & Invalidation</p>
+										<p class="p14 p14ex">Machinery and Electronics</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/sangtao_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Tao Sang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">12 years of experience</p>
-										<p class="p14 p14ex">-Business Development
-											<br/>Business Strategy
-											<br/>Management Consulting</p>
+										<p class="p14 p14ex">15 years of experience</p>
+										<p class="p14 p14ex">Machine Intelligence, Vision Robot, Automation</p>
 									</li>
 
 									<!-- ADD 2018-03-22 -->
