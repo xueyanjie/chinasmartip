@@ -349,7 +349,7 @@ class Main extends CI_Controller
 		$data = array(
 			'name' => '苏琰 博士',
 			'photo' => 'suyan.jpg',
-			'tags' => array('合伙人'),
+			'tags' => array('合伙人', '专利代理人', '律师'),
 			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
 			'contents' => array(
 				'专利申请和复审<br/>专利无效和诉讼<br/>知识产权商业化、专利运营',
@@ -371,7 +371,7 @@ class Main extends CI_Controller
 		$data = array(
 			'name' => 'Dr. Yan Su',
 			'photo' => 'suyan.jpg',
-			'tags' => array('Partner'),
+			'tags' => array('Partner', 'Patent Attorney', 'Attorney at Law'),
 			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation<br/>IP commercialization<br/>Patent operation',
