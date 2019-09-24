@@ -118,6 +118,7 @@
 										<p class="p14 p14ex">14 years of experience</p>
 										<p class="p14 p14ex">Mechanic engineering</p>
 									</li>
+									<!--
 									<li class="li_partners" page="">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Jun Liu</p>
@@ -125,6 +126,7 @@
 										<p class="p14 p14ex">19 years of experience</p>
 										<p class="p14 p14ex">Mechanical & electrical engineering</p>
 									</li>
+									-->
 
 								</ul>
 							</div>
