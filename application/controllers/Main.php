@@ -544,11 +544,21 @@ class Main extends CI_Controller
 
 	public function gaofenfang() {
 		$data = array(
-			'name' => '',
+			'name' => '高芬芳 硕士',
 			'photo' => 'gaofenfang.jpg',
-			'tags' => array(),
-			'titles' => array(),
-			'contents' => array(),
+			'tags' => array('专利代理人'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'专利文件撰写、专利申请、复审和无效<br/>植物新品种文件撰写、申请',
+				'生物、农业<br/>生命科学、生物材料、医药、医疗器械、食品、农业技术、植物新品种',
+				'专利代理人           北京汉智嘉成知识产权代理有限公司	 2019至今
+				<br/>专利代理人	           北京海虹嘉诚知识产权代理有限公司	 2011-2018
+				>br/?专利代理人助理    	北京纪凯知识产权代理有限公司	     2010-2011
+				<br/>产品经理	           北京诺农生物技术有限公司			 2009-2010
+				<br/>科研助理             中国农业科学院作物研究所            2008-2009',
+				'硕士	细胞生物学		中国科学院植物研究所        	2005-2008
+				<br/>本科	农学			中国农业大学						2000-2004',
+			),
 			'pageName' => 'gaofenfang',
 			'pageName2' => 'gaofenfang_en',
 		);

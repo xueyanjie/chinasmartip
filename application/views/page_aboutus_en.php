@@ -27,9 +27,20 @@
 							<div class="phold phold20"></div>
 							<p class="p14l22"  style="text-align: justify;">
 								<img src="<?php echo base_url();?>static/i/aboutUsEn.gif" style="float: right; vertical-align: top;display: inline; width: 350px;margin-left: 25px; margin-bottom:25px;"/>
-								CHINA SMART is a full-service intellectual property law firm in China.  Our firm has a group of highly experienced and dedicated attorneys, providing tailored services to clients globally in an efficient and cost-effective manner.<br/><br/>
-								Our practice encompasses consultation, prosecution, administrative and judicial proceedings related to patents, trademarks, copyrights, domain names, trade secrets, unfair competition and other intellectual property-related matters.<br/><br/>
-								We will make every effort to achieve the sustainable development together with our clients.
+								CHINA SMART is a full-service intellectual property law firm in China. Our practice encompasses,
+								inter alia, consultation, prosecution, administrative and judicial proceedings related to patent,
+								trademark, copyright, domain names, trade secrets and unfair competition.
+
+								The partners and associates, together with the consultants at CHINA SMART possess high scientific and legal qualifications.
+								Many of them have been practiced in the IP area over a decade. They were once senior attorneys in top-ranked IP law firms
+								in China and gathered here with an ambition to be a vibrant part on the stage of IP in China. The professionals in CHINA
+								SMART are registered patent attorneys and/or lawyers with advanced degrees in various majors, including Computer Science,
+								Electronic Engineering, Chemistry, Biochemistry, and Communication Science and are fully capable of understanding the client’s needs.
+
+								We represent domestic and foreign clients around the world, majorly in the US, EP and Japan. We are committed to provide
+								the best possible services to our clients in an efficient and cost-effective manner. Our service can be tailored to
+								specifically meet the client’s needs, no matter it is a start-up or medium- or large-sized company. With the expertise
+								and flexibility, we can be your best IP partner in China.
 							</p>
 						</div>
 					</div>
