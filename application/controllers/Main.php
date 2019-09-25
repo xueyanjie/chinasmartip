@@ -542,5 +542,39 @@ class Main extends CI_Controller
 		$this->load->view("partnerdetail", $data);
 	}
 
+	public function gaofenfang() {
+		$data = array(
+			'name' => '',
+			'photo' => 'gaofenfang.jpg',
+			'tags' => array(),
+			'titles' => array(),
+			'contents' => array(),
+			'pageName' => 'gaofenfang',
+			'pageName2' => 'gaofenfang_en',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+	public function gaofenfang_en() {
+		$data = array(
+			'name' => 'Ms. Fenfang Gao',
+			'photo' => 'gaofenfang.jpg',
+			'tags' => array('Patent Attorney'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent Preparation & Prosecution<br/>Patent Re-examination & InvalidationPlant Variety Right Applications<br/>',
+				'Biological & Agriculture<br/>Life Science, Biomaterials, Pharmaceuticals, Medical Device, Food, Agricultural Technology and Plant Variety',
+				'Ms. Gao represented domestic and foreign clients in all aspects of patent practice including drafting, prosecution, reexamination, invalidation. 
+				She is very knowledgeable of the Chinese Patent Laws and Regulations. 
+				Ms. Gao has helped clients prosecute hundreds of patent applications before the Chinese Patent Office.',
+				'MS in Cell Biology, Institute of Botany, the Chinese Academy of Sciences, 2005-2008
+				<br/>BS in Agronomy, China Agriculture University, 2000-2004',
+			),
+			'pageName' => 'gaofenfang_en',
+			'pageName2' => 'gaofenfang',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
 
 }
