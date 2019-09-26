@@ -105,7 +105,7 @@
 										<p class="p14 p14ex">Machine Intelligence, Vision Robotics & Automation</p>
 									</li>
 
-									<li class="li_partners" page="">
+									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Fenfang Gao</p>
 										<div class="phold phold8"></div>
