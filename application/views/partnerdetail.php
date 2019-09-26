@@ -4,7 +4,7 @@
 	<script type="text/javascript">
 		var pageName = '<?php echo $pageName; ?>';
 		var toPageName = '<?php echo $pageName2; ?>';
-		var lang = 'CN';
+		var lang = '<?php echo stripos($pageName, '_en') > 0 ? 'EN' : 'CN'; ?>';
 	</script>
 	<!--#include file="header.html"-->
 	<?php $this->load->view('header');?>
