@@ -34,6 +34,7 @@ class AdminLogin extends CI_Controller
 			$this->load->view('admin/admin_login_fail');
 		} else {
 			$this->session->set_userdata(array('name', $user));
+			var_dump($this->session->userdata('name'));die;
 			redirect(base_url().'AdminCate');
 		}
 	}
