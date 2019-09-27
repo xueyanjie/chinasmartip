@@ -264,7 +264,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利申请和复审<br/>专利无效和诉讼<br/>商标、著作权、许可',
 				'机械、电子',
-				'蒋宇星曾就职于中国国内知名的知识产权法律服务事务所，拥有11年知识产权实践经验；并曾在加拿大有过系统工程师的工作经验。
+				'蒋宇星曾就职于中国国内知名的知识产权法律服务事务所，拥有15年知识产权实践经验；并曾在加拿大有过系统工程师的工作经验。
 								<br/><br/>蒋宇星主要参与和负责客户在机械、通信、计算机应用等相关领域的国内、外专利案件在申请和审查阶段的各项工作，并为其他国内、外客户在专利挖掘、专利检索分析、专利布局、无效侵权等方面提供详细建议。他对美国、欧洲、日本等国家/地区的专利实践十分熟悉。
 								<br/><br/>此外，他经常参加国内、外知识产权组织举办的各种行业会议，与世界各地的同行保持良好的合作关系。',
 				'<span class="ft_year">1997-2001</span><span class="ft_school" style="width: 172px;">加拿大麦柯玛斯特大学</span><span class="ft_major" style="width:86px;">电子工程</span><span class="ft_degree" style="width:86px;">学士学位</span><br/>
@@ -286,7 +286,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation<br/>Trademark, Copyright, Licensing',
 				'Mechanical & electrical engineering',
-				'Mr. Jiang used to work at a well-known IP law firm and has over 11 years of experience in patent practice and other IP matters. Utilizing his expertise in mechanical, telecommunications and computer, Mr. Jiang provides services including: patent protection strategy consultation; application drafting; prosecution and patent analysis. Mr. Jiang is experienced in dealing with complex cases, and familiar with US, European and Japanese patent practices.
+				'Mr. Jiang used to work at a well-known IP law firm and has over 15 years of experience in patent practice and other IP matters. Utilizing his expertise in mechanical, telecommunications and computer, Mr. Jiang provides services including: patent protection strategy consultation; application drafting; prosecution and patent analysis. Mr. Jiang is experienced in dealing with complex cases, and familiar with US, European and Japanese patent practices.
 								<br/><br/>
 								In addition, he is a regular attendee in various intellectual property conferences and maintains good cooperation relationshipswith domestic and foreign associates.
 								<br/><br/>
