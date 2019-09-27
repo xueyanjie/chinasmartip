@@ -32,7 +32,7 @@ class AdminLogin extends CI_Controller
 		if ($checked === false) {
 			$this->load->view('admin/admin_login_fail');
 		} else {
-			$this->load->view('admin/admin_cate');
+			redirect(base_url().'AdminCate');
 		}
 	}
 }
