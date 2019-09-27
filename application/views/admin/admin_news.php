@@ -63,10 +63,10 @@
             </table>
             <div id="div_pager">
                 <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-default"><a href="/AdminLottery/getActionList?pn=1&pz=<?php echo $pz;?>">首页</a></button>
-                    <button type="button" class="btn btn-default"><a href="/AdminLottery/getActionList?pn=<?php echo intval($pn)>1 ? intval($pn)-1 : 1; ?>&pz=<?php echo $pz;?>">上一页</a></button>
-                    <button type="button" class="btn btn-default"><a href="/AdminLottery/getActionList?pn=<?php echo intval($pn)<intval($pm) ? intval($pn)+1 : $pm; ?>&pz=<?php echo $pz;?>">下一页</a></button>
-                    <button type="button" class="btn btn-default"><a href="/AdminLottery/getActionList?pn=<?php echo $pm; ?>&pz=<?php echo $pz;?>">末页</a></button>
+                    <button type="button" class="btn btn-default"><a href="/AdminNews/index?pn=1&pz=<?php echo $pz;?>">首页</a></button>
+                    <button type="button" class="btn btn-default"><a href="/AdminNews/index?pn=<?php echo intval($pn)>1 ? intval($pn)-1 : 1; ?>&pz=<?php echo $pz;?>">上一页</a></button>
+                    <button type="button" class="btn btn-default"><a href="/AdminNews/index?pn=<?php echo intval($pn)<intval($pm) ? intval($pn)+1 : $pm; ?>&pz=<?php echo $pz;?>">下一页</a></button>
+                    <button type="button" class="btn btn-default"><a href="/AdminNews/index?pn=<?php echo $pm; ?>&pz=<?php echo $pz;?>">末页</a></button>
                 </div>
             </div>
         </div>
