@@ -7,6 +7,7 @@ class AdminLogin extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->library('session');
 	}
 
 	public function index()
@@ -32,6 +33,7 @@ class AdminLogin extends CI_Controller
 		if ($checked === false) {
 			$this->load->view('admin/admin_login_fail');
 		} else {
+			$this->session->set_userdata(array('name', $user));
 			redirect(base_url().'AdminCate');
 		}
 	}
