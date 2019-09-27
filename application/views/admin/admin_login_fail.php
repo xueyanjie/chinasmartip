@@ -27,24 +27,20 @@
 
 		<h3 class="page-header"></h3>
 
-		<form role="form" action="/AdminLogin/check" method="POST">
-			<div class="form-group">
-				<label for="name">用户名</label>
-				<input type="text" class="form-control" id="txtUserName" code="username" placeholder="请输入用户名" />
-			</div>
-			<div class="form-group">
-				<label for="name">密码</label>
-				<input type="password" class="form-control" id="txtPassword" name="password" placeholder="请输入用户名" />
-			</div>
-			<div class="form-group">
-				<label for="name">动态密码</label>
-				<input type="text" class="form-control" id="txtCode" name="code" placeholder="请输入用户名" />
-			</div>
-			<button id="btn_submit" type="button" class="btn btn-primary" data-dismiss="modal">保存</button>
-		</form>
+		<div>
+			登录失败，请重试...
+		</div>
 	</div>
 
 
 </div>
+
+<script type="text/javascript" >
+	$(function(){
+		setTimeout(function(){
+			location.href = "/AdminLogin";
+		}, 2000);
+	});
+</script>
 </body>
 </html>
