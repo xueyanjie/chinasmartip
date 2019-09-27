@@ -553,11 +553,13 @@ class Main extends CI_Controller
 				'生物、农业<br/>生命科学、生物材料、医药、医疗器械、食品、农业技术、植物新品种',
 				'专利代理人           北京汉智嘉成知识产权代理有限公司	 2019至今
 				<br/>专利代理人	           北京海虹嘉诚知识产权代理有限公司	 2011-2018
-				>br/?专利代理人助理    	北京纪凯知识产权代理有限公司	     2010-2011
+				<br/>专利代理人助理    	北京纪凯知识产权代理有限公司	     2010-2011
 				<br/>产品经理	           北京诺农生物技术有限公司			 2009-2010
 				<br/>科研助理             中国农业科学院作物研究所            2008-2009',
-				'硕士	细胞生物学		中国科学院植物研究所        	2005-2008
-				<br/>本科	农学			中国农业大学						2000-2004',
+				'<span class="ft_year">2005-2008</span><span class="ft_school" style="width:86px;">中国科学院植物研究所</span>
+					<span class="ft_major" style="width:166px;">细胞生物学</span><span class="ft_degree" style="width:86px;">硕士</span>
+				<br/><span class="ft_year">2000-2004</span><span class="ft_school" style="width:86px;">中国农业大学</span>
+					<span class="ft_major" style="width:166px;">农学</span><span class="ft_degree" style="width:86px;">本科</span>',
 			),
 			'pageName' => 'gaofenfang',
 			'pageName2' => 'gaofenfang_en',
