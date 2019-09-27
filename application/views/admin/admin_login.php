@@ -40,7 +40,7 @@
 				<label for="name">动态密码</label>
 				<input type="text" class="form-control" id="txtCode" name="code" placeholder="请输入用户名" />
 			</div>
-			<button id="btn_submit" type="button" class="btn btn-primary" data-dismiss="modal">保存</button>
+			<button id="btn_submit" type="submit" class="btn btn-primary" data-dismiss="modal">保存</button>
 		</form>
 	</div>
 
