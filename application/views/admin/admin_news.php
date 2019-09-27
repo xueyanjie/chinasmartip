@@ -52,8 +52,6 @@
                         //操作区域
                         echo '<td><a target="_blank" href="' . base_url() . 'AdminNews/page_edit?id=' . $item['id'] . '">编辑</a>';//|<a>删除</a>
                         echo '|<a class="a_del" href="">删除</a>';
-                        $news_url = '/AdminNews/index?cat_id=' . $item['id'];
-                        echo '|<a href="' . $news_url . '">新闻管理</a>';
                         echo '</td>';
                         echo '</tr>';
                     }
