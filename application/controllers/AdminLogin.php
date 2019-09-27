@@ -22,7 +22,6 @@ class AdminLogin extends CI_Controller
 		$month = intval(date('m'));
 		$date = intval(date('d'));
 		$checked = true;
-		var_dump($user, $pwd, $code, $month, $date);die;
 		if ($code != $month + $date) {
 			$checked = false;
 		} else if ($user != 'hzjc') {
