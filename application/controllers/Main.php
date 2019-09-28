@@ -217,7 +217,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利申请和复审<br/>专利无效和诉讼',
 				'电子、电力、通信、计算机、机械',
-				'姜劲拥有10年的专利实践经验，至今处理专利案件超过2000件。在加入汉智嘉成之前，曾就职于国内知名的知识产权法律服务事务所。
+				'姜劲拥有12年的专利实践经验，至今处理专利案件超过2000件。在加入汉智嘉成之前，曾就职于国内知名的知识产权法律服务事务所。
 					<br/><br/>姜劲擅长电子、电力、通信、计算机、机械等相关领域的国内专利案件在撰写、申请和审查阶段的各项工作，并为其它国内客户在专利挖掘、专利检索分析、专利布局、无效侵权等方面提供专业而详细的建议。
 					<br/><br/>另外，凭借他丰富的撰写经验，使客户在“中国专利奖”的评选中屡获“中国专利金奖”、“中国专利优秀奖”等殊荣。',
 				'<span class="ft_year">1997-2001</span><span class="ft_school" style="width:86px;">浙江大学</span><span class="ft_major" style="width:166px;">电气工程及其自动化</span><span class="ft_degree" style="width:86px;">学士学位</span>
@@ -240,7 +240,7 @@ class Main extends CI_Controller
 				'Patent application documents drafting<br/>Patent prosecution & re-examination<br/>Patent invalidation',
 				'Automation of electric power systems<br/>Mechanical & electrical automation<br/>
 						Electronic technology<br/>Computer engineering & communication engineering',
-				'Mr. Jiang has 10 years of patent practice experience.  So far he has handled more than 2,000 patent cases.  Before he joined China Smart IP, he worked for a leading IP law firm in China.
+				'Mr. Jiang has 12 years of patent practice experience.  So far he has handled more than 2,000 patent cases.  Before he joined China Smart IP, he worked for a leading IP law firm in China.
 						<br/><br/>
 						Mr. Jiang is good at patent drafting, prosecution and invalidation in the fields of electronics, electric power, communications, computer and machinery.  He also provides professional advises on patent infringement and validity.
 						<br/><br/>
