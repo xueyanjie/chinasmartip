@@ -27,8 +27,8 @@ class AdminNews extends CI_Controller {
 			$pz = 15;
 		}
 		$data = array();
-		$total = $this->newsmodel->get_list_count();
-		$list = $this->newsmodel->get_list($pn, $pz, $total);
+		$total = $this->newsmodel->get_list_count($cat_id);
+		$list = $this->newsmodel->get_list($pn, $pz, $total, $cat_id);
 		$data['pn'] = $pn;
 		$data['pz'] = $pz;
 		$data['pm'] = ceil($total/$pz);
