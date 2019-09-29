@@ -58,9 +58,12 @@ class NewsModel extends CI_Model
 	 * @param unknown $userid  用户名
 	 * @return number|unknown
 	 */
-	public function get_list_count()
+	public function get_list_count($cate_id = null)
 	{
 		$sql = "select count(*) as total from cs_news";
+		if (!empty($cate_id)) {
+			$sql .= " where cat_id={$cate_id}";
+		}
 		$query = $this->db->query($sql);
 		$row = $query->row_array();
 		if (empty($row) || !isset($row['total'])) {
@@ -76,7 +79,7 @@ class NewsModel extends CI_Model
 	 * @param int $pz      页大小
 	 * @param int $total   可选参数：如果已知总数，则不用再算，直接传参
 	 */
-	public function get_list($pn, $pz, $total = 0)
+	public function get_list($pn, $pz, $total = 0, $cate_id = null)
 	{
 		if (empty($total)) {
 			$total = $this->get_list_count();
@@ -88,7 +91,13 @@ class NewsModel extends CI_Model
 		$offset = ($pn - 1) * $pz;
 		$sql = 'select n.*,c.cat_name'
 			. " from cs_news as n inner join cs_cate as c on c.cat_id=n.cat_id order by n.id desc limit ?,?";
-		$query = $this->db->query($sql, array($offset, $pz));
+		$params = array($offset, $pz);
+		if (!empty($cate_id)) {
+			$sql = 'select n.*,c.cat_name'
+				. " from cs_news as n inner join cs_cate as c on c.cat_id=n.cat_id and n.cat_id=? order by n.id desc limit ?,?";
+			$params = array($cate_id, $offset, $pz);
+		}
+		$query = $this->db->query($sql, $params);
 		return $query->result_array();
 	}
 

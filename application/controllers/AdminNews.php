@@ -17,6 +17,7 @@ class AdminNews extends CI_Controller {
 
 	public function index()
 	{
+		$cat_id = $this->input->get('cat_id');
 		$pn = $this->input->get('pn');
 		if (empty($pn) || !is_numeric($pn) || $pn < 0) {
 			$pn = 1;
