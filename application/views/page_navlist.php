@@ -81,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 
 </div>
-</body>
+
 <script type="text/javascript">
 	function changeTo(selector, num){
 		//console.log(selector+','+num);
@@ -101,4 +101,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		createInterval('.bannerbox');
 	})
 </script>
+<?php $this->load->view('stats');?>
+</body>
 </html>

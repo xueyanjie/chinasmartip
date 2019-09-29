@@ -116,5 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div style="clear:both"></div>
 	</div>
 </div>
+<?php $this->load->view('stats');?>
+
 </body>
 </html>

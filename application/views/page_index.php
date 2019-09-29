@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 </div>
-</body>
+
 
 <script>
 	$(function(){
@@ -48,5 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		})
 	})
 </script>
+<?php $this->load->view('stats');?>
+</body>
 </html>
 

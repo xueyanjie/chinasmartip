@@ -117,7 +117,7 @@
 			</div>
 			
 		</div>
-	</body>
+
 
 	<script>
 		$(function(){
@@ -126,4 +126,6 @@
 			})
 		})
 	</script>
+		<?php $this->load->view('stats');?>
+	</body>
 </html>

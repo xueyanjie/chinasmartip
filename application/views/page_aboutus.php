@@ -41,13 +41,16 @@
 			</div>
 			ß
 		</div>
+		<script>
+			$(function(){
+				isLoaded(function(){
+					$('.wrapper').show();
+				})
+			})
+		</script>
+
+		<?php $this->load->view('stats');?>
 	</body>
 
-	<script>
-		$(function(){
-			isLoaded(function(){
-				$('.wrapper').show();
-			})
-		})
-	</script>
+
 </html>

@@ -77,7 +77,7 @@
 			</div>
 			
 		</div>
-	</body>
+
 	<script type="text/javascript">
 		function changeTo(selector, num){ 
 			//console.log(selector+','+num);
@@ -97,4 +97,6 @@
 			createInterval('.bannerbox');
 		})
 	</script>
+		<?php $this->load->view('stats');?>
+	</body>
 </html>
