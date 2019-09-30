@@ -400,7 +400,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利文件撰写<br/>专利申请<br/>复审和无效',
 				'化学和生物化学<br/>生命科学、生物材料、医药、医疗器械、食品、化妆品和普通化学',
-				'<span class="ft_base col1">合伙人</span>	<span class="ft_base col2">北京汉智嘉成知识产权代理有限公司</span><span class="ft_base col3">2019至今</span>
+				'<span class="ft_base col1">合伙人</span>	<span class="ft_base col2">北京汉智嘉成知识产权代理有限公司</span> <span class="ft_base col3">2019至今</span>
 					<br/><span class="ft_base col1">专利顾问</span>	<span class="ft_base col2">睿盟希资本</span>	<span class="ft_base col3">2019至今</span>
 					<br/><span class="ft_base col1">专利顾问</span>	<span class="ft_base col2">中原信达知识产权代理有限责任公司</span>	<span class="ft_base col3">2012-2018</span>
 					<br/><span class="ft_base col1">项目经理</span>	<span class="ft_base col2">北京华方科泰医药有限公司</span>	<span class="ft_base col3">2010-2012</span>',
