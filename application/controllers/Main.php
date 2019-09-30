@@ -405,7 +405,7 @@ class Main extends CI_Controller
 					<br/><span class="ft_base col1">专利顾问</span>	<span class="ft_base col2">中原信达知识产权代理有限责任公司</span>	<span class="ft_base col3">2012-2018</span>
 					<br/><span class="ft_base col1">项目经理</span>	<span class="ft_base col2">北京华方科泰医药有限公司</span>	<span class="ft_base col3">2010-2012</span>',
 				'<span class="ft_year">2009-2010</span><span class="ft_school" style="width:305px;">Washington University, Seattle, WA USA</span>
-					<span class="ft_major" style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
+					 <span class="ft_major" style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
 					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:306px;">Simon 
 					Fraser University, Burnaby BC Canada</span><span class="ft_major" 
 						style="width:101px;">生物化学</span><span class="ft_degree">博士</span>
@@ -551,11 +551,11 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利文件撰写、专利申请、复审和无效<br/>植物新品种文件撰写、申请',
 				'生物、农业<br/>生命科学、生物材料、医药、医疗器械、食品、农业技术、植物新品种',
-				'专利代理人           北京汉智嘉成知识产权代理有限公司	 2019至今
-				<br/>专利代理人	           北京海虹嘉诚知识产权代理有限公司	 2011-2018
-				<br/>专利代理人助理    	北京纪凯知识产权代理有限公司	     2010-2011
-				<br/>产品经理	           北京诺农生物技术有限公司			 2009-2010
-				<br/>科研助理             中国农业科学院作物研究所            2008-2009',
+				'<span class="ft_base col1">专利代理人</span><span class="ft_base col2">北京汉智嘉成知识产权代理有限公司</span><span class="ft_base col3">2019至今</span>
+				<br/><span class="ft_base col1">专利代理人</span><span class="ft_base col2">北京海虹嘉诚知识产权代理有限公司</span><span class="ft_base col3">2011-2018</span>
+				<br/><span class="ft_base col1">专利代理人助理</span><span class="ft_base col2">北京纪凯知识产权代理有限公司</span><span class="ft_base col3">2010-2011</span>
+				<br/><span class="ft_base col1">产品经理</span><span class="ft_base col2">北京诺农生物技术有限公司</span><span class="ft_base col3">2009-2010</span>
+				<br/><span class="ft_base col1">科研助理</span><span class="ft_base col2">中国农业科学院作物研究所</span><span class="ft_base col3">2008-2009</span>',
 				'<span class="ft_year">2005-2008</span><span class="ft_school" style="width:170px;">中国科学院植物研究所</span>
 					<span class="ft_major" style="width:166px;">细胞生物学</span><span class="ft_degree" style="width:86px;">硕士</span>
 				<br/><span class="ft_year">2000-2004</span><span class="ft_school" style="width:170px;">中国农业大学</span>
