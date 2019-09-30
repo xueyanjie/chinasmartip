@@ -102,6 +102,15 @@
 .ft_base {
 	display: inline-block;
 }
+.col1 {
+	width:100px;
+}
+.col2 {
+	width:300px;
+}
+.col3 {
+	width:100px;
+}
 
 .ft_year {
 	display: inline-block;
