@@ -468,11 +468,11 @@ class Main extends CI_Controller
 		$data = array(
 			'name' => 'Mr. Yongzhe Zhang',
 			'photo' => 'zhangyongzhe.jpg',
-			'tags' => array('Partner', 'Patent Engineer'),
+			'tags' => array('Patent Engineer'),
 			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
 			'contents' => array(
-				'Patent Drafting &Prosecution<br/>Patent Re-examination & Invalidation',
-				'Mechanics',
+				'Patent Drafting & Prosecution<br/>Patent Re-examination & Invalidation',
+				'Mechanical & electrical engineering',
 				'Mr. Zhang has worked as a patent engineer since 2011. He is experienced in patent drafting and prosecution, 
 				including pre-filing search and opinions and responding to Office Actions. 
 				Mr. Zhang is heavily involved in patent mining and deployment for small-size companies and has also accumulated experience 
