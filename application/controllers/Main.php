@@ -543,7 +543,7 @@ class Main extends CI_Controller
 
 	public function gaofenfang() {
 		$data = array(
-			'name' => '高芬芳 硕士',
+			'name' => '高芬芳',
 			'photo' => 'gaofenfang.jpg',
 			'tags' => array('专利代理人'),
 			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
