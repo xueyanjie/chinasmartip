@@ -99,6 +99,10 @@
 
 }
 
+.ft_base {
+	display: inline-block;
+}
+
 .ft_year {
 	display: inline-block;
 	margin-right: 30px;
