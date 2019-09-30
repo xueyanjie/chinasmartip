@@ -41,7 +41,7 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Huimin Gu</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">21 years of Experience</p>
+										<p class="p14 p14ex">23 years of Experience</p>
 										<p class="p14 p14ex">Electronic & Computer Technologies</p>
 									</li>
 									<li id="p_jyx_en" class="li_partners" page="<?php echo base_url(); ?>Main/jiangyuxing_en">
@@ -64,21 +64,21 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Dr. Yan Su</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">10 years of Experience</p>
+										<p class="p14 p14ex">12 years of Experience</p>
 										<p class="p14 p14ex">Chemistry, Chemical Engineering</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/huanchunyan_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Chunyan Huan</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">13 years of Experience</p>
+										<p class="p14 p14ex">15 years of Experience</p>
 										<p class="p14 p14ex">Chemistry, Chemical Engineering, Materials</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/jinjie_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Jie Jin</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">12 years of Experience</p>
+										<p class="p14 p14ex">14 years of Experience</p>
 										<p class="p14 p14ex">Computer Technology, Telecommunication</p>
 									</li>
 

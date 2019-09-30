@@ -39,7 +39,7 @@
 										<span class="circle"></span>
 										<p class="p_partenter">谷惠敏</p>
 										<div class="phold phold8"></div>
-										<p class="p14">21年实践经验</p>
+										<p class="p14">23年实践经验</p>
 										<p class="p14">电子、计算机</p>
 									</li>
 									<li id="p_jyx" class="li_partners" page="<?php echo base_url()?>Main/jiangyuxing">
@@ -60,21 +60,21 @@
 										<span class="circle"></span>
 										<p class="p_partenter">苏琰 博士</p>
 										<div class="phold phold8"></div>
-										<p class="p14">10年实践经验</p>
+										<p class="p14">12年实践经验</p>
 										<p class="p14">化学、化工</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/huanchunyan">
 										<span class="circle"></span>
 										<p class="p_partenter">郇春艳</p>
 										<div class="phold phold8"></div>
-										<p class="p14">13 年实践经验</p>
+										<p class="p14">15 年实践经验</p>
 										<p class="p14">化学、化工、材料学</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/jinjie">
 										<span class="circle"></span>
 										<p class="p_partenter">金洁</p>
 										<div class="phold phold8"></div>
-										<p class="p14">12年实践经验</p>
+										<p class="p14">14年实践经验</p>
 										<p class="p14">计算机、通信</p>
 									</li>
 									<!-- add -->

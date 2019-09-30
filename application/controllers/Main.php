@@ -131,7 +131,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利申请和复审<br/>专利无效和诉讼',
 				'计算机、电子',
-				'谷惠敏拥有21年的专利实践经验，至今处理专利案件近3000件。在加入汉智嘉成之前，曾就职于国内知名的知识产权法律服务事务所。
+				'谷惠敏拥有23年的专利实践经验，至今处理专利案件近3000件。在加入汉智嘉成之前，曾就职于国内知名的知识产权法律服务事务所。
 						<br/><br/>谷惠敏主要参与和负责客户在电子、计算机应用等相关领域的国内、外专利案件在申请和审查阶段的各项工作，以及授权后的权利行使。此外，她熟悉美国、日本和欧洲等国家和地区的专利实践，协助客户在外国获得专利权保护。
 						<br/><br/>在办案过程中，谷惠敏始终注重对案件技术的理解和与客户的沟通，为客户争取最大的利益。',
 				'<span class="ft_year">1990-1994</span><span class="ft_school">东南大学自动化工程</span><span class="ft_degree">学士学位</span>',
@@ -152,7 +152,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation',
 				'Electronic & computer technologies',
-				'Ms. Gu has 21 years of experience in patent practice.  She has handled nearly 3,000 patent cases so far.  Before she joined China Smart IP, she worked as a senior patent attorney at a well-known IP law firm in China.
+				'Ms. Gu has 23 years of experience in patent practice.  She has handled nearly 3,000 patent cases so far.  Before she joined China Smart IP, she worked as a senior patent attorney at a well-known IP law firm in China.
 						<br/><br/>
 						Ms. Gu is mainly involved in patent prosecution, re-examination and invalidation in the fields of electronic and computer technologies.  She is also familiar with patent practice overseas and has assisted clients in obtaining patent rights in many countries.
 						<br/><br/>
@@ -175,7 +175,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利申请和复审<br/>专利无效和诉讼',
 				'化学、材料学',
-				'郇春艳拥有13年的专利实践经验，至今处理专利案件2000余件。主要参与和负责客户在化学特别是材料学领域的国内、外专利案件在申请和审查阶段的各项工作，并为其它国内、外客户进行专利挖掘、专利布局等方面提供专业而具体的帮助。<br/><br/>郇春艳对于化学领域的专利案件有着丰富的经验，在办案过程中运用自身全面而深厚的化学知识对案件进行深入分析和把握，并且追求稳定、合理的专利权，切实做到为专利申请人的利益考虑，一直以来深受客户好评。',
+				'郇春艳拥有15年的专利实践经验，至今处理专利案件2000余件。主要参与和负责客户在化学特别是材料学领域的国内、外专利案件在申请和审查阶段的各项工作，并为其它国内、外客户进行专利挖掘、专利布局等方面提供专业而具体的帮助。<br/><br/>郇春艳对于化学领域的专利案件有着丰富的经验，在办案过程中运用自身全面而深厚的化学知识对案件进行深入分析和把握，并且追求稳定、合理的专利权，切实做到为专利申请人的利益考虑，一直以来深受客户好评。',
 				'<span class="ft_year">1997-2001</span><span class="ft_school" style="width:116px;">东北电力大学</span><span class="ft_major" style="width:86px;">分析化学</span><span class="ft_degree">学士学位</span><br/><span class="ft_year">2001-2004</span><span class="ft_school" style="width:116px;">清华大学</span><span class="ft_major" style="width:86px;">材料学</span><span class="ft_degree">硕士学位</span>',
 			),
 			'pageName' => 'huanchunyan',
@@ -194,7 +194,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation',
 				'Chemistry, chemical engineering, materials',
-				'Ms. Huan has 13 years of experience in patent practice.  She has handled about 2,000 patent cases so far on behalf of domestic and foreign clients.<br/><br/>
+				'Ms. Huan has 15 years of experience in patent practice.  She has handled about 2,000 patent cases so far on behalf of domestic and foreign clients.<br/><br/>
 						Ms. Huan is mainly involved in patent prosecution, re-examination and invalidation in the fields of chemistry, chemical engineering and materials.  
 						She also provides professional advises on patent infringement and validity.<br/><br/>
 						Thanks to her comprehensive and profound knowledge in both technologies and patent practice, she has helped many clients obtain stable patent rights in China.
@@ -310,7 +310,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'专利申请和复审<br/>专利无效<br/>咨询<br/>',
 				'计算机、通信',
-				'金洁自大学毕业后开始从事知识产权行业至今已有12年经验，专注于知识产权代理及咨询。
+				'金洁自大学毕业后开始从事知识产权行业至今已有14年经验，专注于知识产权代理及咨询。
 								<br/><br/>作为代理人，她凭借精湛的专业能力以及丰富的实践经验，为国内、外客户提供知识产权申请、保护等法律服务，并为客户在全球范围内知识产权的获得、管理等方面提供咨询；同时，擅长与客户的沟通和关系维护、洞悉和分析客户的需求并为之定制行之有效的知识产权保护方案。
 								<br/><br/>此外，她经常参加国内、外知识产权组织举办的各种行业会议，与世界各地的同行保持稳定良好的合作关系。',
 				'<span class="ft_year">2000-2004</span><span class="ft_school" style="width:116px;">中国农业大学</span><span class="ft_major" style="width:146px;">计算机科学与技术</span><span class="ft_degree">学士学位</span>',
@@ -331,7 +331,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation<br/>Consultation',
 				'Computer technology, telecommunication',
-				'Ms. Jin has been engaged in intellectual property practice for 12 years since her graduation from university, specializing in patent practice and IP consulting.
+				'Ms. Jin has been engaged in intellectual property practice for 14 years since her graduation from university, specializing in patent practice and IP consulting.
 						<br/><br/>
 						As an attorney, she provides opinions on IP prosecution and protection for domestic and foreign clients by her excellent professional abilities and rich practice experience.  At the same time, she is good at communication and analyzation, which can help her tailor-made effective IP protection solutions for clients.
 						<br/><br/>
