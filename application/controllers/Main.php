@@ -404,7 +404,7 @@ class Main extends CI_Controller
 					<br/><span class="ft_base col1">专利顾问</span>	<span class="ft_base col2">睿盟希资本</span>	<span class="ft_base col3">2019至今</span>
 					<br/><span class="ft_base col1">专利顾问</span>	<span class="ft_base col2">中原信达知识产权代理有限责任公司</span>	<span class="ft_base col3">2012-2018</span>
 					<br/><span class="ft_base col1">项目经理</span>	<span class="ft_base col2">北京华方科泰医药有限公司</span>	<span class="ft_base col3">2010-2012</span>',
-				'<span class="ft_year">2009-2010</span> <span class="ft_school" style="width:305px;">Washington University, Seattle, WA USA</span><span class="ft_major" style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
+				'<span class="ft_year">2009-2010</span><span class="ft_school" style="width:305px;">Washington University, Seattle, WA USA</span> <span class="ft_major" style="width:101px;">生物化学</span><span class="ft_degree">博士后</span>
 					<br/><span class="ft_year">2003-2009</span><span class="ft_school" style="width:306px;">Simon 
 					Fraser University, Burnaby BC Canada</span><span class="ft_major" 
 						style="width:101px;">生物化学</span><span class="ft_degree">博士</span>
