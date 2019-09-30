@@ -421,7 +421,7 @@ class Main extends CI_Controller
 	public function gongyongmei_en()
 	{
 		$data = array(
-			'name' => 'Ms. Chunyan Huan',
+			'name' => 'Dr. Yongmei Gong',
 			'photo' => 'gongyongmei.jpg',
 			'tags' => array('Partner', 'Patent Consultant'),
 			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
@@ -431,7 +431,7 @@ class Main extends CI_Controller
 				'Dr. Gong worked in one of the Chinese leading IP firms, China Sinda, for many years before she joined China Smart as a partner. 
 				She represented domestic and foreign clients in all aspects of patent practice including drafting, prosecution, reexamination, invalidation, providing FTO and consultation. 
 				She specializes in dealing with complex issues in the biotech area.',
-				'Postdoctoral in Biochemistry, University of Washington, Seattle, WA USA, 2010-2010.
+				'Postdoctoral in Biochemistry, University of Washington, Seattle, WA USA, 2009-2010.
 				<br/>PhD in Biochemistry, Simon Fraser University, Burnaby, BC Canada, 2003-2009
 				<br/>BS in Chemistry, Peking University, Beijing China, 1999-2003',
 			),
