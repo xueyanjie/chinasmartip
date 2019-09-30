@@ -31,11 +31,13 @@
 								inter alia, consultation, prosecution, administrative and judicial proceedings related to patent,
 								trademark, copyright, domain names, trade secrets and unfair competition.
 								<br/>
+								<br/>
 								The partners and associates, together with the consultants at CHINA SMART possess high scientific and legal qualifications.
 								Many of them have been practiced in the IP area over a decade. They were once senior attorneys in top-ranked IP law firms
 								in China and gathered here with an ambition to be a vibrant part on the stage of IP in China. The professionals in CHINA
 								SMART are registered patent attorneys and/or lawyers with advanced degrees in various majors, including Computer Science,
 								Electronic Engineering, Chemistry, Biochemistry, and Communication Science and are fully capable of understanding the client’s needs.
+								<br/>
 								<br/>
 								We represent domestic and foreign clients around the world, majorly in the US, EP and Japan. We are committed to provide
 								the best possible services to our clients in an efficient and cost-effective manner. Our service can be tailored to
