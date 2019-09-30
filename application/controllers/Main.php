@@ -451,7 +451,7 @@ class Main extends CI_Controller
 			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
 			'contents' => array(
 				'专利文件撰写<br/>专利申请<br/>复审和无效',
-				'机械',
+				'机械、电子',
 				'2011年至今一直从事专利代理方面的工作，熟悉专利文件撰写、审查意见答复；专利复审、无效；专利侵权分析；知识产权咨询、检索业务等，积累了丰富的专利代理经验。',
 				'<span class="ft_year">2007-2011</span><span class="ft_school" style="width:145px;">北京印刷学院
 					</span><span class="ft_major" 
