@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://www.chinasmartip.com:8080/';  //base url
+//$config['base_url'] = 'http://www.chinasmartip.com:8080/';  //base url
+$config['base_url'] = 'http://www.chinasmartip.com/';  //base url
 
 /*
 |--------------------------------------------------------------------------
