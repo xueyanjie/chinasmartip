@@ -27,7 +27,7 @@
 					<!--<div class="phold phold105"></div>-->
 					<!--<img src="static/i/making.png" class="imgmap"/>-->
 					<p class="p1624marleft"><span class="spand"></span><?php echo $item['title']; ?></p>
-					<p class="p14l22 marginLeft30"><?php echo $item['title']; ?></p>
+					<p class="p14l22 marginLeft30"><?php echo $item['content']; ?></p>
 					<a class="ENa_back" href="<?php echo base_url();?>Main/events_en"></a>
 				</div>
 			</div>
