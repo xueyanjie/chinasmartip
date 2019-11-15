@@ -51,7 +51,7 @@
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
                         echo '<td><a target="_blank" href="' . base_url() . 'AdminNews/page_edit?id=' . $item['id'] . '">编辑</a>';//|<a>删除</a>
-                        echo '|<a class="a_del" >删除</a>';
+                        echo '|<a class="a_del" data_id="'. $item['id'] .'">删除</a>';
                         echo '</td>';
                         echo '</tr>';
                     }
@@ -143,7 +143,7 @@
             });
         }
 
-        function del() {
+        function del(dataId) {
 			var val = $('#txtCatName').val();
 			var url = '/AdminNews/del';
 			bootbox.confirm({
@@ -151,7 +151,7 @@
 				message: "确认删除？",
 				callback: function(result){
 					if (result == true) {
-						$.post(url,{id:curr_id},function(res){
+						$.post(url,{id:dataId},function(res){
 							if (res && res.status == '0') {
 								bootbox.alert({
 									size: "small",
@@ -191,7 +191,10 @@
             $('#btn_edit_submit').click(submitInfo);
             //初始化datepicker
             //重置抽奖活动
-            $('.a_del').click(del);
+            $('.a_del').click(function(){
+            	var data_id = $(this).attr('id');
+            	del(data_id);
+			});
         });
     </script>
 </body>
