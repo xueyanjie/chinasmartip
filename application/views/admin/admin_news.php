@@ -144,7 +144,7 @@
         }
 
         function del(dataId) {
-			var val = $('#txtCatName').val();
+			//var val = $('#txtCatName').val();
 			var url = '/AdminNews/del';
 			bootbox.confirm({
 				size: "small",
@@ -192,7 +192,7 @@
             //初始化datepicker
             //重置抽奖活动
             $('.a_del').click(function(){
-            	var data_id = $(this).attr('id');
+            	var data_id = $(this).attr('data_id');
             	del(data_id);
 			});
         });
