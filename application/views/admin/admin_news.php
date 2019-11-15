@@ -158,7 +158,8 @@
 									title: "操作成功",
 									message: "已删除",
 									//callback: function(){ /* your callback code */ }
-								})
+								});
+								setTimeout(function(){location.reload();}, 1000);
 							} else {
 								bootbox.alert({
 									size: "small",
