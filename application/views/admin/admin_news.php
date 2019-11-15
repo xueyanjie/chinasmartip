@@ -51,7 +51,7 @@
                         echo '<td>' . $item['update_time'] . '</td>';
                         //操作区域
                         echo '<td><a target="_blank" href="' . base_url() . 'AdminNews/page_edit?id=' . $item['id'] . '">编辑</a>';//|<a>删除</a>
-                        echo '|<a class="a_del" href="">删除</a>';
+                        echo '|<a class="a_del" >删除</a>';
                         echo '</td>';
                         echo '</tr>';
                     }
@@ -145,10 +145,10 @@
 
         function del() {
 			var val = $('#txtCatName').val();
-			var url = '/AdminCate/del';
+			var url = '/AdminNews/del';
 			bootbox.confirm({
 				size: "small",
-				message: "确认删除分类<strong>"+val+"</strong>吗？",
+				message: "确认删除？",
 				callback: function(result){
 					if (result == true) {
 						$.post(url,{id:curr_id},function(res){
