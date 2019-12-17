@@ -56,6 +56,7 @@
 										<p class="p14">12年实践经验</p>
 										<p class="p14">电子、电力、机械、通信</p>
 									</li>
+									<!--
 									<li class="li_partners" page="<?php echo base_url()?>Main/suyan">
 										<span class="circle"></span>
 										<p class="p_partenter">苏琰 博士</p>
@@ -63,6 +64,7 @@
 										<p class="p14">12年实践经验</p>
 										<p class="p14">化学、化工</p>
 									</li>
+									-->
 									<li class="li_partners" page="<?php echo base_url()?>Main/huanchunyan">
 										<span class="circle"></span>
 										<p class="p_partenter">郇春艳</p>
