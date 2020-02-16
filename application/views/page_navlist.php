@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="nav1 navli">
 					<a href="<?php echo base_url();?>/Main/events">
 						<div class="navspan"></div>
-						<div class="navcon" id="navEvents">培训与活动</div>
+						<div class="navcon" id="navEvents">新闻与活动</div>
 					</a>
 				</div>
 				<div class="nav1 navli">

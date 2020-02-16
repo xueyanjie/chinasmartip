@@ -47,7 +47,7 @@
 						<div class="nav1 navli">
 							<a href="<?php echo base_url();?>Main/events_en">
 								<div class="navspan"></div>
-								<div class="navcon" id="navEventsen">Events</div>
+								<div class="navcon" id="navEventsen">News and Events</div>
 							</a>
 						</div>
 						<div class="nav1 navli">
