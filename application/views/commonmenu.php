@@ -8,7 +8,7 @@
         on = pageName == 'partners' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>Main/partners"><span class="span_circle"></span>专业团队</a></li>';
         on = pageName == 'events' ? ' class="on" ' : '';
-        html += '<li '+on+'><a href="<?php echo base_url();?>Main/events"><span class="span_circle"></span>培训与活动</a></li>';
+        html += '<li '+on+'><a href="<?php echo base_url();?>Main/events"><span class="span_circle"></span>新闻与活动</a></li>';
         on = pageName == 'contact' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>Main/contact"><span class="span_circle"></span>联络我们</a></li>';
         html += '</ul>';
@@ -22,7 +22,7 @@
         on = pageName == 'partners_en' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>Main/partners_en"><span class="span_circle"></span>Professionals</a></li>';
         on = pageName == 'events_en' ? ' class="on" ' : '';
-        html += '<li '+on+'><a href="<?php echo base_url();?>Main/events_en"><span class="span_circle"></span>Events</a></li>';
+        html += '<li '+on+'><a href="<?php echo base_url();?>Main/events_en"><span class="span_circle"></span>News and Events</a></li>';
         on = pageName == 'contact_en' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>Main/contact_en"><span class="span_circle"></span>Contact Us</a></li>';
         html += '</ul>';
