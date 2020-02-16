@@ -22,7 +22,7 @@
         on = pageName == 'partners_en' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>Main/partners_en"><span class="span_circle"></span>Professionals</a></li>';
         on = pageName == 'events_en' ? ' class="on" ' : '';
-        html += '<li '+on+'><a href="<?php echo base_url();?>Main/events_en"><span class="span_circle"></span>News and Events</a></li>';
+        html += '<li '+on+'><a href="<?php echo base_url();?>Main/events_en"><span class="span_circle"></span>News & Events</a></li>';
         on = pageName == 'contact_en' ? ' class="on" ' : '';
         html += '<li '+on+'><a href="<?php echo base_url();?>Main/contact_en"><span class="span_circle"></span>Contact Us</a></li>';
         html += '</ul>';
