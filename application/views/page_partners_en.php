@@ -59,7 +59,9 @@
 										<p class="p14 p14ex">Electrical automation & engineering</p>
 									</li>
 								</ul>
+
 								<ul class="partnerul cl">
+									<!--
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/suyan_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Dr. Yan Su</p>
@@ -67,6 +69,7 @@
 										<p class="p14 p14ex">12 years of Experience</p>
 										<p class="p14 p14ex">Chemistry, Chemical Engineering</p>
 									</li>
+									-->
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/huanchunyan_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Chunyan Huan</p>
