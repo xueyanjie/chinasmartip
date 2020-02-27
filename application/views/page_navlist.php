@@ -73,8 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="footlink fr">
 					<p class="ptel cl"><span class="span1">86-10-65184418</span> <span class="fr"><a href="mailto:info@chinasmartip.com">info@chinasmartip.com</a></span></p>
 					<p class="pEng">
-						<span class="fr">北京汉智嘉成知识产权代理有限公司</span>
-						<span>京ICP备18041328号</span>
+						<span class="fr">北京汉智嘉成知识产权代理有限公司 京ICP备18041328号</span>
 					</p>
 				</div>
 			</div>
