@@ -1,5 +1,5 @@
 <IfModule authz_core_module>
-    Require all denied
+    Require all granted
     <FilesMatch "\.(css|js|jp?g|png|gif|md|php)$">
     	Require all granted
     </FilesMatch>

@@ -111,6 +111,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				| <a href='/sitemap.xml' target='_blank'>Site Map</a>
 
 				<Br />Beijing Hanzhijiacheng Intellectual Property Agency Ltd. All rights Reserved
+				<br /> 京ICP备18041328号
 			</p>
 		</div>
 		<div style="clear:both"></div>
