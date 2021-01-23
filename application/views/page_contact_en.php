@@ -48,7 +48,7 @@
 						<div class="footlink fr">
 							<p class="ptel cl"><span class="span1">86-10-65184418</span> <span class="fr">info@chinasmartip.com</span></p>
 							<p class="pEng">
-								<span class="fr">CHINA SMART INTELLECTUAL PROPERTY LTD. <a href="https://beian.miit.gov.cn" target="_blank">京ICP备18041328号</a></span>
+								<span class="fr">CHINA SMART INTELLECTUAL PROPERTY LTD. <a href="https://beian.miit.gov.cn" target="_blank">京ICP备18041328号-1</a></span>
 							</p>
 						</div>
 						
