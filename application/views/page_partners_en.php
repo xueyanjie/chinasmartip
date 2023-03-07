@@ -44,7 +44,7 @@
 								</div>
 							</div>
 							<div class="">
-								<p class="personTitle">Prosicution</p>
+								<p class="personTitle">Prosecution</p>
 								<ul class="partnerul cl">
 									<li class="li_partners" page="<?php echo base_url();?>Main/guhuimin_en">
 										<span class="circle"></span>
