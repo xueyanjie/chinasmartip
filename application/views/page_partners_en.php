@@ -95,7 +95,7 @@
 									<!-- ADD 2019-09-21 -->
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/guodan_en">
 										<span class="circle"></span>
-										<p class="p_partenter">MS. Dan Guo</p>
+										<p class="p_partenter">Ms. Dan Guo</p>
 										<div class="phold phold8"></div>
 										<p class="p14 p14ex">7 years of Experience</p>
 										<p class="p14 p14ex">Chemistry, Pharmaceutical & Biotech</p>
