@@ -41,22 +41,22 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Huimin Gu</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">23 years of Experience</p>
+										<p class="p14 p14ex">26 years of Experience</p>
 										<p class="p14 p14ex">Electronic & Computer Technologies</p>
 									</li>
 									<li id="p_jyx_en" class="li_partners" page="<?php echo base_url(); ?>Main/jiangyuxing_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Daniel Jiang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">15 years of Experience</p>
+										<p class="p14 p14ex">18 years of Experience</p>
 										<p class="p14 p14ex">Mechanical & Electrical Engineering</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/jiangjin_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Jin Jiang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">12 years of Experience</p>
-										<p class="p14 p14ex">Electrical automation & engineering</p>
+										<p class="p14 p14ex">15 years of Experience</p>
+										<p class="p14 p14ex">Electrical Automation & Engineering</p>
 									</li>
 								</ul>
 
@@ -74,37 +74,37 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Chunyan Huan</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">15 years of Experience</p>
+										<p class="p14 p14ex">18 years of Experience</p>
 										<p class="p14 p14ex">Chemistry, Chemical Engineering, Materials</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/jinjie_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Jie Jin</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">14 years of Experience</p>
+										<p class="p14 p14ex">17 years of Experience</p>
 										<p class="p14 p14ex">Computer Technology, Telecommunication</p>
 									</li>
 
 									<!-- ADD 2019-09-21 -->
-									<li class="li_partners" page="<?php echo base_url(); ?>Main/gongyongmei_en">
+									<li class="li_partners" page="<?php echo base_url(); ?>Main/guodan_en">
 										<span class="circle"></span>
-										<p class="p_partenter">Dr. Yongmei Gong</p>
+										<p class="p_partenter">MS. Dan Guo</p>
 										<div class="phold phold8"></div>
 										<p class="p14 p14ex">7 years of Experience</p>
 										<p class="p14 p14ex">Chemistry, Pharmaceutical & Biotech</p>
 									</li>
-									<li class="li_partners" page="<?php echo base_url(); ?>Main/zhangyongzhe_en">
+									<li class="li_partners" page="<?php echo base_url(); ?>Main/fangmin_en">
 										<span class="circle"></span>
-										<p class="p_partenter">Mr. Yongzhe Zhang</p>
+										<p class="p_partenter">Mr. Min Fang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">8 years of Experience</p>
-										<p class="p14 p14ex">Mechanical & Electrical Engineering</p>
+										<p class="p14 p14ex">15 years of Experience</p>
+										<p class="p14 p14ex">Mechanical</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/sangtao_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Tao Sang</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">15 years of Experience</p>
+										<p class="p14 p14ex">18 years of Experience</p>
 										<p class="p14 p14ex">Machine Intelligence, Vision Robotics & Automation</p>
 									</li>
 
@@ -112,7 +112,7 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Fenfang Gao</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">9 years of Experience</p>
+										<p class="p14 p14ex">13 years of Experience</p>
 										<p class="p14 p14ex">Biochemistry, Pharmaceutical, Agriculture & Food</p>
 									</li>
 
@@ -121,8 +121,51 @@
 										<span class="circle"></span>
 										<p class="p_partenter">Mr. Simon Cai</p>
 										<div class="phold phold8"></div>
-										<p class="p14 p14ex">14 years of Experience</p>
+										<p class="p14 p14ex">17 years of Experience</p>
 										<p class="p14 p14ex">Mecahnical Engineering</p>
+									</li>
+									<!-- ADD 2023-03-7 -->
+									<li class="li_partners" page="<?php echo base_url()?>Main/liujun_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Mr. Jun Liu</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">23 years of experience</p>
+										<p class="p14 p14ex">Patents, Trademarks, Copyrights, Trade secrets</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/linye_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Ms. Ye Lin</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">12 years of experience</p>
+										<p class="p14 p14ex">Patents, Trademarks, Copyrights, Trade secrets</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/lyuzhanzhu_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Dr. Zhanzhu Lyu</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">12 years of experience</p>
+										<p class="p14 p14ex">Mechanical & Electrical Engineering</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/yanghonglong_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Mr. Honglong Yang</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">13 years of experience</p>
+										<p class="p14 p14ex">Communication, Mechanical & Electrical Engineering, Software</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/sunshumei_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Ms. Shumei Sun</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">13 years of experience</p>
+										<p class="p14 p14ex">Mechanical & Electrical engineering, Communication,Materials</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/sunshumei_en">
+										<span class="circle"></span>
+										<p class="p_partenter">Ms. Yu Zheng</p>
+										<div class="phold phold8"></div>
+										<p class="p14 p14ex">10 years of experience</p>
+										<p class="p14 p14ex">Electronic, Communication & Software</p>
 									</li>
 									<!--
 									<li class="li_partners" page="">
