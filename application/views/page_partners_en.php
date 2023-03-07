@@ -160,7 +160,7 @@
 										<p class="p14 p14ex">13 years of experience</p>
 										<p class="p14 p14ex">Mechanical & Electrical engineering, Communication,Materials</p>
 									</li>
-									<li class="li_partners" page="<?php echo base_url()?>Main/sunshumei_en">
+									<li class="li_partners" page="<?php echo base_url()?>Main/zhengyu_en">
 										<span class="circle"></span>
 										<p class="p_partenter">Ms. Yu Zheng</p>
 										<div class="phold phold8"></div>

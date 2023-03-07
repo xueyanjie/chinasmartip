@@ -646,7 +646,7 @@ class Main extends CI_Controller
 			'titles' => array('Practice Areas', 'Professional Experience'),
 			'contents' => array(
 				'Patents, trademarks, copyrights, trade secrets, integrated circuit layout design and other litigation cases;<br/>Corporate intellectual Property legal adviser – help to improve or construct IP management system;<br/>IP negotiations <br/>',
-				'Ms. Lin has a Master degree in Law from Shandon University.<br/>Actively involved in litigations for over 10 years and worked closely with Mr. Liu in his high-profile cases.  Wining cases including but not limited to:<br/><b>Huawei Vs Samsung SEP/NSEP </b>infringement litigations against Samsung (The first one in China);<br/><b>Huawei Vs Solar Edge</b> for patent infringement –settlement;<br/><b>Huawei Vs Mr. Jianhui Jiang</b> in second instance for stolen trade secrets (criminal preceding);<br/><b>Measada Vs Didihu</b> for Trade secret litigation<br/>Pre-trial injunction for <b>Huiding vs Jihao</b>;<br/>Re-trial of <b>Staples</b> Patent invalidation administrative litigation (2017 IP guiding case).',
+				'Ms. Lin has a Master degree in Law from Shandon University.<br/><br/>Actively involved in litigations for over 10 years and worked closely with Mr. Liu in his high-profile cases.  Wining cases including but not limited to:<br/><b>Huawei Vs Samsung SEP/NSEP </b>infringement litigations against Samsung (The first one in China);<br/><b>Huawei Vs Solar Edge</b> for patent infringement –settlement;<br/><b>Huawei Vs Mr. Jianhui Jiang</b> in second instance for stolen trade secrets (criminal preceding);<br/><b>Measada Vs Didihu</b> for Trade secret litigation<br/>Pre-trial injunction for <b>Huiding vs Jihao</b>;<br/>Re-trial of <b>Staples</b> Patent invalidation administrative litigation (2017 IP guiding case).',
 			),
 			'pageName' => 'linye_en',
 			'pageName2' => 'linye',
@@ -662,7 +662,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent application, patent mining, patent mapping, patent reexamination, patent invalidation, patent litigations. <br/>',
 				'Mechanical and Electrical',
-				'Dr. Lyu obtained his Ph.D. in Electrical Engineering at Dalian University of Technology.  He also taught in China university of Geology (Beijing).  Before he joined us, Dr. Lyu was an examiner at Chinese Patent office Reexamination Board.  <br/>Dr. Lyu is mainly involved in patent prosecution, re-examination and invalidation, his client including both domestic as well as oversea enterprises, as well as research institutions and universities.  <br/> ',
+				'Dr. Lyu obtained his Ph.D. in Electrical Engineering at Dalian University of Technology.  He also taught in China university of Geology (Beijing).  Before he joined us, Dr. Lyu was an examiner at Chinese Patent office Reexamination Board.  <br/><br/>Dr. Lyu is mainly involved in patent prosecution, re-examination and invalidation, his client including both domestic as well as oversea enterprises, as well as research institutions and universities.  <br/> ',
 			),
 			'pageName' => 'lyuzhanzhu_en',
 			'pageName2' => 'lyuzhanzhu',
