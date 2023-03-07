@@ -8,6 +8,14 @@
 		</script>
 		<!--#include file="header.html"-->
 		<?php $this->load->view('header');?>
+		<style>
+			.personTitle{
+				color: #d2ac79;
+				font-size: 20px;
+				line-height: 28px;
+				margin-bottom: 20px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="wrapper wrapperbg">
@@ -36,6 +44,7 @@
 								</div>
 							</div>
 							<div class="">
+								<p class="personTitle">Prosicution</p>
 								<ul class="partnerul cl">
 									<li class="li_partners" page="<?php echo base_url();?>Main/guhuimin_en">
 										<span class="circle"></span>
@@ -58,9 +67,7 @@
 										<p class="p14 p14ex">15 years of Experience</p>
 										<p class="p14 p14ex">Electrical Automation & Engineering</p>
 									</li>
-								</ul>
 
-								<ul class="partnerul cl">
 									<!--
 									<li class="li_partners" page="<?php echo base_url(); ?>Main/suyan_en">
 										<span class="circle"></span>
@@ -124,6 +131,10 @@
 										<p class="p14 p14ex">17 years of Experience</p>
 										<p class="p14 p14ex">Mecahnical Engineering</p>
 									</li>
+								</ul>
+
+								<p class="personTitle">Litigation</p>
+								<ul class="partnerul cl">
 									<!-- ADD 2023-03-7 -->
 									<li class="li_partners" page="<?php echo base_url()?>Main/liujun_en">
 										<span class="circle"></span>
