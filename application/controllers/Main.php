@@ -152,7 +152,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation',
 				'Electronic & computer technologies',
-				'Ms. Gu has 23 years of experience in patent practice.  She has handled nearly 3,000 patent cases so far.  Before she joined China Smart IP, she worked as a senior patent attorney at a well-known IP law firm in China.
+				'Ms. Gu has 26 years of experience in patent practice.  She has handled nearly 3,000 patent cases so far.  Before she joined China Smart IP, she worked as a senior patent attorney at a well-known IP law firm in China.
 						<br/><br/>
 						Ms. Gu is mainly involved in patent prosecution, re-examination and invalidation in the fields of electronic and computer technologies.  She is also familiar with patent practice overseas and has assisted clients in obtaining patent rights in many countries.
 						<br/><br/>
@@ -194,7 +194,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation',
 				'Chemistry, chemical engineering, materials',
-				'Ms. Huan has 15 years of experience in patent practice.  She has handled about 2,000 patent cases so far on behalf of domestic and foreign clients.<br/><br/>
+				'Ms. Huan has 18 years of experience in patent practice.  She has handled about 2,000 patent cases so far on behalf of domestic and foreign clients.<br/><br/>
 						Ms. Huan is mainly involved in patent prosecution, re-examination and invalidation in the fields of chemistry, chemical engineering and materials.  
 						She also provides professional advises on patent infringement and validity.<br/><br/>
 						Thanks to her comprehensive and profound knowledge in both technologies and patent practice, she has helped many clients obtain stable patent rights in China.
@@ -240,7 +240,7 @@ class Main extends CI_Controller
 				'Patent application documents drafting<br/>Patent prosecution & re-examination<br/>Patent invalidation',
 				'Automation of electric power systems<br/>Mechanical & electrical automation<br/>
 						Electronic technology<br/>Computer engineering & communication engineering',
-				'Mr. Jiang has 12 years of patent practice experience.  So far he has handled more than 2,000 patent cases.  Before he joined China Smart IP, he worked for a leading IP law firm in China.
+				'Mr. Jiang has 15 years of patent practice experience.  So far he has handled more than 2,000 patent cases.  Before he joined China Smart IP, he worked for a leading IP law firm in China.
 						<br/><br/>
 						Mr. Jiang is good at patent drafting, prosecution and invalidation in the fields of electronics, electric power, communications, computer and machinery.  He also provides professional advises on patent infringement and validity.
 						<br/><br/>
@@ -286,7 +286,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation & litigation<br/>Trademark, Copyright, Licensing',
 				'Mechanical & electrical engineering',
-				'Mr. Jiang used to work at a well-known IP law firm and has over 15 years of experience in patent practice and other IP matters. Utilizing his expertise in mechanical, telecommunications and computer, Mr. Jiang provides services including: patent protection strategy consultation; application drafting; prosecution and patent analysis. Mr. Jiang is experienced in dealing with complex cases, and familiar with US, European and Japanese patent practices.
+				'Mr. Jiang used to work at a well-known IP law firm and has over 18 years of experience in patent practice and other IP matters. Utilizing his expertise in mechanical, telecommunications and computer, Mr. Jiang provides services including: patent protection strategy consultation; application drafting; prosecution and patent analysis. Mr. Jiang is experienced in dealing with complex cases, and familiar with US, European and Japanese patent practices.
 								<br/><br/>
 								In addition, he is a regular attendee in various intellectual property conferences and maintains good cooperation relationshipswith domestic and foreign associates.
 								<br/><br/>
@@ -331,7 +331,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Patent prosecution & re-examination<br/>Patent invalidation<br/>Consultation',
 				'Computer technology, telecommunication',
-				'Ms. Jin has been engaged in intellectual property practice for 14 years since her graduation from university, specializing in patent practice and IP consulting.
+				'Ms. Jin has been engaged in intellectual property practice for 17 years since her graduation from university, specializing in patent practice and IP consulting.
 						<br/><br/>
 						As an attorney, she provides opinions on IP prosecution and protection for domestic and foreign clients by her excellent professional abilities and rich practice experience.  At the same time, she is good at communication and analyzation, which can help her tailor-made effective IP protection solutions for clients.
 						<br/><br/>
@@ -526,7 +526,7 @@ class Main extends CI_Controller
 			'contents' => array(
 				'Business Development <br/>Business Strategy<br/>Management Consulting',
 				'Machine Intelligence<br/>Vision Robotics<br/>Automation<br/>Project Management<br/>Product Design',
-				'Mr. Sang has over 10 years of management experience with international tech companies. 
+				'Mr. Sang has over 18 years of management experience with international tech companies. 
 				Based in Canada, he started as a product design engineer then moved into management roles dealing with international projects in Asia. 
 				Mr. Sang also has worked for Canadian company living in Asia as an EXPAT in management roles such as regional operations manager and genera manager. 
 				Mr. Sang has strong technical background combined with international management experience in the industry. 
@@ -586,6 +586,132 @@ class Main extends CI_Controller
 		);
 		$this->load->view("partnerdetail", $data);
 	}
-
-
+	// 2023年新加
+	public function guodan_en() {
+		$data = array(
+			'name' => 'Ms. Dan Guo',
+			'photo' => 'guodan.jpg',
+			'tags' => array('Patent Attorney','Attorney at Law'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent Drafting &Prosecution<br/>Patent Re-examination & Invalidation<br/>',
+				'Biochemistry & Chemistry<br/>Life Science, Biomaterials, Pharmaceuticals, Medical Device, Food, Cosmetics',
+				'Ms. Guo worked in one of the Chinese leading IP firms for many years before she joined China Smart. She represented domestic and foreign clients in all aspects of patent practice including drafting, prosecution, reexamination, invalidation, providing FTO and consultation. She specializes in dealing with complex issues in biochemistry & chemistry areas.',
+				'Master of Engineering, China University of Petroleum (East China), 2012-2015
+				Bachelor of Engineering, Ocean University of China, 2008-2012
+				',
+			),
+			'pageName' => 'guodan_en',
+			'pageName2' => 'guodan',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function fangmin_en() {
+		$data = array(
+			'name' => 'Mr. Min Fang',
+			'photo' => 'fangmin.jpg',
+			'tags' => array('Partner','Patent Attorney'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent Drafting & Prosecution<br/>Patent Re-examination & Invalidation<br/>',
+				'Mechanical & electrical engineering',
+				'Mr. Fang worked in one of the Chinese leading IP firms for many years before he joined China Smart as a Partner. He represented domestic and foreign clients in all aspects of patent practice including drafting, prosecution, reexamination, invalidation, providing FTO and consultation. He is skilled in patent drafting in both Chinese and English and he is experienced in overseas patent deployment.',
+				'Ph.D. (Quit) in Precision Instrument and Mechanism, Shanghai Jiaotong University, 1997-2000<br/>Master in Automobile Design and Manufacturing, Jiangsu University of Science and Technology, 1994-1997<br/>Bachelor in Automobile Design and Manufacturing, Jiangsu University of Science and Technology, 1990-1994',
+			),
+			'pageName' => 'fangmin_en',
+			'pageName2' => 'fangmin',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function liujun_en() {
+		$data = array(
+			'name' => 'Mr. Jun Liu',
+			'photo' => 'liujun.jpg',
+			'tags' => array('Founding Partner / Junzhiquan Law Firm','Patent Attorney, Attorney at Law'),
+			'titles' => array('Practice Areas', 'Professional Experience'),
+			'contents' => array(
+				'Patents, trademarks, copyrights, trade secrets, integrated circuit layout design and other litigation cases;<br/>Corporate intellectual Property legal adviser – help to improve or construct IP management system;<br/>IP negotiations<br/>',
+				'Since 2000, he has been engaged in intellectual property work. He is a director of the "Intellectual Property" Council, a legal expert specially appointed by the Guangdong Intellectual Property Office and legal advisers of several high-tech enterprises.<br/>Represented a considerable number of nationally significant intellectual property cases involving patents, trademarks, copyrights, trade secrets, integrated circuit layout designs, etc.  Wining cases including but not limited to:<br/><b>Huawei Vs Samsung</b> SEP/NSEP infringement litigations against Samsung (The first one in China);<br/><b>Huawei Vs Solar Edge</b> for patent infringement –settlement;<br/><b>Huawei Vs Mr. Jianhui Jiang</b> in second instance for stolen trade secrets (criminal preceding);<br/><b>Measada Vs Didihu</b> for Trade secret litigation;<br/>Pre-trial injunction for <b>Huiding vs Jihao</b>;<br/>Re-trial of <b>Staples</b> Patent invalidation administrative litigation (2017 IP guiding case).<br/>Participated in the study of corporate intellectual property management standards sponsored by the Guangdong Provincial Intellectual Property Office and review work.<br/>Author of "Collection of Evidence in Patent Litigation", "Practical Guide to Intellectual Property Work" and other works.',
+			),
+			'pageName' => 'liujun_en',
+			'pageName2' => 'liujun',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function linye_en() {
+		$data = array(
+			'name' => 'Ms. Ye Lin',
+			'photo' => 'linye.jpg',
+			'tags' => array('Attorney at Law / Junzhiquan Law Firm','Litigation coordinator'),
+			'titles' => array('Practice Areas', 'Professional Experience'),
+			'contents' => array(
+				'Patents, trademarks, copyrights, trade secrets, integrated circuit layout design and other litigation cases;<br/>Corporate intellectual Property legal adviser – help to improve or construct IP management system;<br/>IP negotiations <br/>',
+				'Ms. Lin has a Master degree in Law from Shandon University.<br/>Actively involved in litigations for over 10 years and worked closely with Mr. Liu in his high-profile cases.  Wining cases including but not limited to:<br/><b>Huawei Vs Samsung SEP/NSEP </b>infringement litigations against Samsung (The first one in China);<br/><b>Huawei Vs Solar Edge</b> for patent infringement –settlement;<br/><b>Huawei Vs Mr. Jianhui Jiang</b> in second instance for stolen trade secrets (criminal preceding);<br/><b>Measada Vs Didihu</b> for Trade secret litigation<br/>Pre-trial injunction for <b>Huiding vs Jihao</b>;<br/>Re-trial of <b>Staples</b> Patent invalidation administrative litigation (2017 IP guiding case).',
+			),
+			'pageName' => 'linye_en',
+			'pageName2' => 'linye',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function lyuzhanzhu_en() {
+		$data = array(
+			'name' => 'Dr. Zhanzhu Lyu',
+			'photo' => 'lyuzhanzhu.jpg',
+			'tags' => array('General Manager of Beijing Office / Junzhiquan Law Firm','Patent Attorney'),
+			'titles' => array('Practice Areas','Technical field', 'Professional Experience'),
+			'contents' => array(
+				'Patent application, patent mining, patent mapping, patent reexamination, patent invalidation, patent litigations. <br/>',
+				'Mechanical and Electrical',
+				'Dr. Lyu obtained his Ph.D. in Electrical Engineering at Dalian University of Technology.  He also taught in China university of Geology (Beijing).  Before he joined us, Dr. Lyu was an examiner at Chinese Patent office Reexamination Board.  <br/>Dr. Lyu is mainly involved in patent prosecution, re-examination and invalidation, his client including both domestic as well as oversea enterprises, as well as research institutions and universities.  <br/> ',
+			),
+			'pageName' => 'lyuzhanzhu_en',
+			'pageName2' => 'lyuzhanzhu',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function yanghonglong_en() {
+		$data = array(
+			'name' => 'Mr. Honglong Yang',
+			'photo' => 'yanghonglong.jpg',
+			'tags' => array('Attorney at Law / Junzhiquan Law Firm','Patent Attorney'),
+			'titles' => array('Professional Experience'),
+			'contents' => array(
+				'Mr. Yang started doing professional patent work in 2010. He specializes in patent retrieval, application, invalidation and litigation in the fields of communication, electronic circuit, software and machinery.<br/><br/>Mr. Yang was key members in the following high profile litigation cases:<br/>
+				-  Huawei v. SolarEdge: bus voltage patent invalidation and infringement litigation.<br/>   Representing Huawei and successfully maintain the patent validity (infringement litigation is in progress);<br/>-	Iucco v. Xuanji: Information U Disk basic patent invalidation and infringement litigation.<br/>   Representing Iucco and successfully maintaining the patent validity (infringement litigation is in progress);<br/>-  Huiding Technology v. Siliwei: Representing Huiding and successfully invalidated all patents involved around ESD circuit patents, forcing Siliwei to withdraw the infringement lawsuit;<br/>-  Honghe Technology v. Shirui: Succeeded in forcing Shirui to settle and withdraw the infringement lawsuit, which cleared the way for a successful Honghe Technology IPO.',
+			),
+			'pageName' => 'yanghonglong_en',
+			'pageName2' => 'yanghonglong',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function sunshumei_en() {
+		$data = array(
+			'name' => 'Ms. Shumei Sun',
+			'photo' => 'sunshumei.jpg',
+			'tags' => array('Lawyer / Junzhiquan Law Firm','Patent Attorney'),
+			'titles' => array('Practice Area','Professional Experience'),
+			'contents' => array(
+				'Patent infringement disputes, patent administrative litigation, patent reexamination and invalidation.<br/>Acting as an enterprise intellectual property legal adviser, patent prosecutor, and IP consultant.<br/>',
+				'Ms. Sun began her career in intellectual property in 2010. She has been engaged in patent substantive examination in the patent examination cooperation center of the State Intellectual Property Office for 7 years.<br/>After that, Ms Sun has represented a variety of patent related cases, including infringement disputes, administrative litigation, reexamination and invalidation, patent application processing, etc. Her specialty areas include but are not limited to mechanical, electrical, communications, and materials.<br/>',
+			),
+			'pageName' => 'sunshumei_en',
+			'pageName2' => 'sunshumei',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+	public function zhengyu_en() {
+		$data = array(
+			'name' => 'Ms. Yu Zheng',
+			'photo' => 'zhengyu.jpg',
+			'tags' => array('Senior Patent Attorney / Junzhiquan Law Firm'),
+			'titles' => array('Practice Area','Professional Experience'),
+			'contents' => array(
+				'Litigations in areas of patent, trade secret, integrated circuit layout design and more. <br/>Legal expert in the setup and improvement of enterprise intellectual property management system<br/>',
+				'Ms. Zheng obtained her Master’s degree in Automation from Northeastern University of China. She has nearly 10 years of software development and intellectual property experience.<br/>Ms. Zheng specializes in patent mining, application, and reexamination. She is an expert in invalidation and litigation in electronic, communication and the software fields.<br/>Ms. Zheng is also experienced in business management and project management which is a huge value-add to our clients in the area of enterprise R & D and IP management.<br/>',
+			),
+			'pageName' => 'zhengyu_en',
+			'pageName2' => 'zhengyu',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
 }
