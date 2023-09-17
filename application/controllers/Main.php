@@ -600,9 +600,10 @@ class Main extends CI_Controller
 				领域的国内、外专利案件的各项工作，并为客户进行专利挖掘、专利检索等方面提供专业服务。
 				郭丹对于化学领域的专利案件有着丰富的经验，在办案过程中运用自身全面而深厚的技术功底对案件 进行深入分析和把握，以客户的⻆度对专利相关的事物提供服务，一直以来深受客户好评。
 				<br/>',
-				'2012-2015 中国石油大学(华东)化学工程与技术 硕士学位<br/>
-				2008-2012中国海洋大学 化学工程与工艺 学士学位
-				',
+
+
+				'<span class="ft_year">2012-2015</span><span class="ft_school" style="width:145px;">中国石油大学(华东)</span><span class="ft_major" style="width:101px;">化学工程与技术</span><span class="ft_degree">硕士学位</span>
+				<br/><span class="ft_year">2008-2012</span><span class="ft_school" style="width:145px;">中国海洋大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span class="ft_degree">学士学位</span>',
 			),
 			'pageName' => 'guodan',
 			'pageName2' => 'guodan_en',
@@ -660,7 +661,7 @@ class Main extends CI_Controller
 				'Patent Drafting &Prosecution<br/>Patent Re-examination & Invalidation<br/>',
 				'Machinery, electronics, computer, chemical engineering, materials<br/>',
 				'Chen Yingjuan has 12 years of practical experience in patents, with both upstream and downstream work experience. She has worked for a well-known intellectual property agency in China, an AI medical startup company, and a listed company in the telecommunications industry. She is proficient in various fields related to domestic patent cases in the writing, application, and review stages, and provides professional and detailed advice to other domestic clients regarding patent mining, patent search and analysis, patent layout, patent review acceleration, enterprise intellectual property management, project reporting, and other related areas.
-				<br/>Some of the major clients she has served include: Beijing Tongren Hospital Affiliated to Capital Medical University, Beijing Eye Institute, JD.com Group, Beijing East Technology Co., Ltd., Tsinghua University, Tianjin University, North China Electric Power University, etc.<br/>',
+				<br/><br/>Some of the major clients she has served include: Beijing Tongren Hospital Affiliated to Capital Medical University, Beijing Eye Institute, JD.com Group, Beijing East Technology Co., Ltd., Tsinghua University, Tianjin University, North China Electric Power University, etc.<br/>',
 				'Master\'s Degree in Materials Science and Engineering from Zhejiang University, 2012-2015<br/>
 				Bachelor\'s Degree in Chemical Engineering and Technology from Hunan University, 2008-2012',
 			),
