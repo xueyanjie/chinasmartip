@@ -108,14 +108,14 @@
 										<p class="p14">13年实践经验</p>
 										<p class="p14">生物化学、医药、农业、食品</p>
 									</li>
-									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang">
+									<li class="li_partners" page="<?php echo base_url()?>Main/guodan">
 										<span class="circle"></span>
 										<p class="p_partenter">郭丹</p>
 										<div class="phold phold8"></div>
 										<p class="p14">7 年实践经验</p>
 										<p class="p14">化学、医药、机械</p>
 									</li>
-									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang">
+									<li class="li_partners" page="<?php echo base_url()?>Main/chenyingjuan">
 										<span class="circle"></span>
 										<p class="p_partenter">陈莹娟</p>
 										<div class="phold phold8"></div>
