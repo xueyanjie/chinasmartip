@@ -39,21 +39,21 @@
 										<span class="circle"></span>
 										<p class="p_partenter">谷惠敏</p>
 										<div class="phold phold8"></div>
-										<p class="p14">23年实践经验</p>
+										<p class="p14">26年实践经验</p>
 										<p class="p14">电子、计算机</p>
 									</li>
 									<li id="p_jyx" class="li_partners" page="<?php echo base_url()?>Main/jiangyuxing">
 										<span class="circle"></span>
 										<p class="p_partenter">蒋宇星</p>
 										<div class="phold phold8"></div>
-										<p class="p14">15年实践经验</p>
+										<p class="p14">18年实践经验</p>
 										<p class="p14">机械、电子</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/jiangjin">
 										<span class="circle"></span>
 										<p class="p_partenter">姜劲</p>
 										<div class="phold phold8"></div>
-										<p class="p14">12年实践经验</p>
+										<p class="p14">15年实践经验</p>
 										<p class="p14">电子、电力、机械、通信</p>
 									</li>
 									<!--
@@ -69,14 +69,14 @@
 										<span class="circle"></span>
 										<p class="p_partenter">郇春艳</p>
 										<div class="phold phold8"></div>
-										<p class="p14">15 年实践经验</p>
+										<p class="p14">18 年实践经验</p>
 										<p class="p14">化学、化工、材料学</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/jinjie">
 										<span class="circle"></span>
 										<p class="p_partenter">金洁</p>
 										<div class="phold phold8"></div>
-										<p class="p14">14年实践经验</p>
+										<p class="p14">17年实践经验</p>
 										<p class="p14">计算机、通信</p>
 									</li>
 									<!-- add -->
@@ -98,14 +98,14 @@
 										<span class="circle"></span>
 										<p class="p_partenter">桑涛</p>
 										<div class="phold phold8"></div>
-										<p class="p14">15年实践经验</p>
+										<p class="p14">18年实践经验</p>
 										<p class="p14">机器智能、视觉机器人、自动化</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang">
 										<span class="circle"></span>
 										<p class="p_partenter">高芬芳</p>
 										<div class="phold phold8"></div>
-										<p class="p14">9年实践经验</p>
+										<p class="p14">13年实践经验</p>
 										<p class="p14">生物化学、医药、农业、食品</p>
 									</li>
 								</ul>
