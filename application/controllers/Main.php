@@ -643,7 +643,7 @@ class Main extends CI_Controller
 				曾经服务的主要客户包括:首都医科大学附属北京同仁医院、北京市眼科研究所、京东集团、东土科 技、清华大学、天津大学、华北电力大学等。<br/>',
 
 				'<span class="ft_year">2008-2011</span><span class="ft_school" style="width:115px;">浙江大学</span><span class="ft_major" style="width:101px;">材料科学与工程</span><span style="text-align:right;width:100px;" class="ft_degree">硕士学位</span>
-				<br/><span class="ft_year">2004-2008</span><span class="ft_school" style="width:115px;">湖南大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span style="text-align:right;width:100px;" class="ft_degree">工科学士学位</span>',
+				<br/><span class="ft_year">2004-2008</span><span class="ft_school" style="width:115px;">湖南大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span style="text-align:right;width:127px;" class="ft_degree">工科学士学位</span>',
 			),
 			'pageName' => 'chenyingjuan',
 			'pageName2' => 'chenyingjuan_en',
