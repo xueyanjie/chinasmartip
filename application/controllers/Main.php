@@ -587,6 +587,28 @@ class Main extends CI_Controller
 		$this->load->view("partnerdetail", $data);
 	}
 	// 2023年新加
+	public function guodan() {
+		$data = array(
+			'name' => '郭丹',
+			'photo' => 'guodan.jpg',
+			'tags' => array('专利代理人','律师'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'专利文件撰写<br/>专利挖掘、检索<br/>专利申请、复审和无效<br/>',
+				'化学、材料、医药、机械<br/>',
+				'郭丹自 2016 年加入知识产权代理行业，曾就职于国内知名知识产权服务公司，主要负责客户在化学等 领域的国内、外专利案件的各项工作，并为客户进行专利挖掘、专利检索等方面提供专业服务。
+				领域的国内、外专利案件的各项工作，并为客户进行专利挖掘、专利检索等方面提供专业服务。
+				郭丹对于化学领域的专利案件有着丰富的经验，在办案过程中运用自身全面而深厚的技术功底对案件 进行深入分析和把握，以客户的⻆度对专利相关的事物提供服务，一直以来深受客户好评。
+				<br/>',
+				'2012-2015 中国石油大学(华东)化学工程与技术 硕士学位<br/>
+				2008-2012中国海洋大学 化学工程与工艺 学士学位
+				',
+			),
+			'pageName' => 'guodan',
+			'pageName2' => 'guodan_en',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
 	public function guodan_en() {
 		$data = array(
 			'name' => 'Ms. Dan Guo',
