@@ -80,7 +80,7 @@
 										<p class="p14">计算机、通信</p>
 									</li>
 									<!-- add  -->
-									<li class="li_partners" page="<?php echo base_url()?>Main/gongyongmei">
+									<!-- <li class="li_partners" page="<?php echo base_url()?>Main/gongyongmei">
 										<span class="circle"></span>
 										<p class="p_partenter">龚泳梅 博士</p>
 										<div class="phold phold8"></div>
@@ -93,7 +93,7 @@
 										<div class="phold phold8"></div>
 										<p class="p14">8年实践经验</p>
 										<p class="p14">机械、电子</p>
-									</li>
+									</li> -->
 									<li class="li_partners" page="<?php echo base_url()?>Main/sangtao">
 										<span class="circle"></span>
 										<p class="p_partenter">桑涛</p>
@@ -107,6 +107,20 @@
 										<div class="phold phold8"></div>
 										<p class="p14">13年实践经验</p>
 										<p class="p14">生物化学、医药、农业、食品</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang">
+										<span class="circle"></span>
+										<p class="p_partenter">郭丹</p>
+										<div class="phold phold8"></div>
+										<p class="p14">7 年实践经验</p>
+										<p class="p14">化学、医药、机械</p>
+									</li>
+									<li class="li_partners" page="<?php echo base_url()?>Main/gaofenfang">
+										<span class="circle"></span>
+										<p class="p_partenter">陈莹娟</p>
+										<div class="phold phold8"></div>
+										<p class="p14">12年实践经验</p>
+										<p class="p14">化学、机械、计算机</p>
 									</li>
 								</ul>
 							</div>
