@@ -39,14 +39,14 @@
 										<span class="circle"></span>
 										<p class="p_partenter">谷惠敏</p>
 										<div class="phold phold8"></div>
-										<p class="p14">23年实践经验</p>
+										<p class="p14">26年实践经验</p>
 										<p class="p14">电子、计算机</p>
 									</li>
 									<li id="p_jyx" class="li_partners" page="<?php echo base_url()?>Main/jiangyuxing">
 										<span class="circle"></span>
 										<p class="p_partenter">蒋宇星</p>
 										<div class="phold phold8"></div>
-										<p class="p14">15年实践经验</p>
+										<p class="p14">18年实践经验</p>
 										<p class="p14">机械、电子</p>
 									</li>
 									<li class="li_partners" page="<?php echo base_url()?>Main/jiangjin">
