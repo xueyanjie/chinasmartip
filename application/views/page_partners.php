@@ -79,7 +79,7 @@
 										<p class="p14">17年实践经验</p>
 										<p class="p14">计算机、通信</p>
 									</li>
-									<!-- add -->
+									<!-- add  -->
 									<li class="li_partners" page="<?php echo base_url()?>Main/gongyongmei">
 										<span class="circle"></span>
 										<p class="p_partenter">龚泳梅 博士</p>
