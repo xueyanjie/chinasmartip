@@ -53,7 +53,7 @@
 										<span class="circle"></span>
 										<p class="p_partenter">姜劲</p>
 										<div class="phold phold8"></div>
-										<p class="p14">12年实践经验</p>
+										<p class="p14">15年实践经验</p>
 										<p class="p14">电子、电力、机械、通信</p>
 									</li>
 									<!--
