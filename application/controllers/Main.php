@@ -660,10 +660,9 @@ class Main extends CI_Controller
 				'Patent Drafting &Prosecution<br/>Patent Re-examination & Invalidation<br/>',
 				'Machinery, electronics, computer, chemical engineering, materials<br/>',
 				'Chen Yingjuan has 12 years of practical experience in patents, with both upstream and downstream work experience. She has worked for a well-known intellectual property agency in China, an AI medical startup company, and a listed company in the telecommunications industry. She is proficient in various fields related to domestic patent cases in the writing, application, and review stages, and provides professional and detailed advice to other domestic clients regarding patent mining, patent search and analysis, patent layout, patent review acceleration, enterprise intellectual property management, project reporting, and other related areas.
-				Some of the major clients she has served include: Beijing Tongren Hospital Affiliated to Capital Medical University, Beijing Eye Institute, JD.com Group, Beijing East Technology Co., Ltd., Tsinghua University, Tianjin University, North China Electric Power University, etc.<br/>',
+				<br/>Some of the major clients she has served include: Beijing Tongren Hospital Affiliated to Capital Medical University, Beijing Eye Institute, JD.com Group, Beijing East Technology Co., Ltd., Tsinghua University, Tianjin University, North China Electric Power University, etc.<br/>',
 				'Master\'s Degree in Materials Science and Engineering from Zhejiang University, 2012-2015<br/>
-				Bachelor\'s Degree in Chemical Engineering and Technology from Hunan University, 2008-2012
-				',
+				Bachelor\'s Degree in Chemical Engineering and Technology from Hunan University, 2008-2012',
 			),
 			'pageName' => 'chenyingjuan_en',
 			'pageName2' => 'chenyingjuan',
