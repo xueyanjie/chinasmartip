@@ -602,8 +602,8 @@ class Main extends CI_Controller
 				<br/>',
 
 
-				'<span class="ft_year">2012-2015</span><span class="ft_school" style="width:135px;">中国石油大学(华东)</span><span class="ft_major" style="width:101px;">化学工程与技术</span><span class="ft_degree">硕士学位</span>
-				<br/><span class="ft_year">2008-2012</span><span class="ft_school" style="width:135px;">中国海洋大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span class="ft_degree">学士学位</span>',
+				'<span class="ft_year">2012-2015</span><span class="ft_school" style="width:135px;">中国石油大学(华东)</span><span class="ft_major" style="width:101px;">化学工程与技术</span><span style="text-align:right;" class="ft_degree">硕士学位</span>
+				<br/><span class="ft_year">2008-2012</span><span class="ft_school" style="width:135px;">中国海洋大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span style="text-align:right;" class="ft_degree">学士学位</span>',
 			),
 			'pageName' => 'guodan',
 			'pageName2' => 'guodan_en',
@@ -642,8 +642,8 @@ class Main extends CI_Controller
 				'陈莹娟拥有 12 年的专利实践经验，兼有甲方和乙方的工作经历。曾就职于国内知名知识产权代理公 司、AI 医疗创业公司和通讯行业上市公司。擅⻓多个领域的国内专利案件在撰写、申请和审查阶段的 各项工作，并为其他国内客户在专利挖掘、专利检索分析、专利布局、专利审查加速、企业知识产权 管理、项目申报等方面提供专业而详细的建议。
 				曾经服务的主要客户包括:首都医科大学附属北京同仁医院、北京市眼科研究所、京东集团、东土科 技、清华大学、天津大学、华北电力大学等。<br/>',
 
-				'<span class="ft_year">2008-2011</span><span class="ft_school" style="width:135px;">浙江大学</span><span class="ft_major" style="width:101px;">材料科学与工程</span><span class="ft_degree">硕士学位</span>
-				<br/><span class="ft_year">2004-2008</span><span class="ft_school" style="width:135px;">湖南大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span class="ft_degree">工科学士学位</span>',
+				'<span class="ft_year">2008-2011</span><span class="ft_school" style="width:115px;">浙江大学</span><span class="ft_major" style="width:101px;">材料科学与工程</span><span style="text-align:right;" class="ft_degree">硕士学位</span>
+				<br/><span class="ft_year">2004-2008</span><span class="ft_school" style="width:115px;">湖南大学</span><span class="ft_major" style="width:101px;">化学工程与工艺</span><span style="text-align:right;" class="ft_degree">工科学士学位</span>',
 			),
 			'pageName' => 'chenyingjuan',
 			'pageName2' => 'chenyingjuan_en',
