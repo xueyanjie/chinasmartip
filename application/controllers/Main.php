@@ -628,6 +628,50 @@ class Main extends CI_Controller
 		);
 		$this->load->view("partnerdetail", $data);
 	}
+
+	public function chenyingjuan() {
+		$data = array(
+			'name' => '陈莹娟',
+			'photo' => 'chenyingjuan.jpg',
+			'tags' => array('专利代理人'),
+			'titles' => array('执业范围', '专业领域', '执业经验', '教育背景'),
+			'contents' => array(
+				'专利文件撰写<br/>专利挖掘、检索<br/>专利申请、复审和无效<br/>',
+				'机械、电子、计算机、化工、材料<br/>',
+				'陈莹娟拥有 12 年的专利实践经验，兼有甲方和乙方的工作经历。曾就职于国内知名知识产权代理公 司、AI 医疗创业公司和通讯行业上市公司。擅⻓多个领域的国内专利案件在撰写、申请和审查阶段的 各项工作，并为其他国内客户在专利挖掘、专利检索分析、专利布局、专利审查加速、企业知识产权 管理、项目申报等方面提供专业而详细的建议。
+				曾经服务的主要客户包括:首都医科大学附属北京同仁医院、北京市眼科研究所、京东集团、东土科 技、清华大学、天津大学、华北电力大学等。<br/>',
+				'2008-2011 浙江大学 材料科学与工程 硕士学位<br/>
+				2004-2008 湖南大学 化学工程与工艺 工科学士学位
+				',
+			),
+			'pageName' => 'chenyingjuan',
+			'pageName2' => 'chenyingjuan_en',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+	public function chenyingjuan_en() {
+		$data = array(
+			'name' => 'Ms. YingJuan Chen',
+			'photo' => 'chenyingjuan.jpg',
+			'tags' => array('Patent Attorney'),
+			'titles' => array('Practice Areas', 'Technical Fields', 'Professional Experience', 'Education'),
+			'contents' => array(
+				'Patent Drafting &Prosecution<br/>Patent Re-examination & Invalidation<br/>',
+				'Machinery, electronics, computer, chemical engineering, materials<br/>',
+				'Chen Yingjuan has 12 years of practical experience in patents, with both upstream and downstream work experience. She has worked for a well-known intellectual property agency in China, an AI medical startup company, and a listed company in the telecommunications industry. She is proficient in various fields related to domestic patent cases in the writing, application, and review stages, and provides professional and detailed advice to other domestic clients regarding patent mining, patent search and analysis, patent layout, patent review acceleration, enterprise intellectual property management, project reporting, and other related areas.
+				Some of the major clients she has served include: Beijing Tongren Hospital Affiliated to Capital Medical University, Beijing Eye Institute, JD.com Group, Beijing East Technology Co., Ltd., Tsinghua University, Tianjin University, North China Electric Power University, etc.<br/>',
+				'Master\'s Degree in Materials Science and Engineering from Zhejiang University, 2012-2015<br/>
+				Bachelor\'s Degree in Chemical Engineering and Technology from Hunan University, 2008-2012
+				',
+			),
+			'pageName' => 'chenyingjuan_en',
+			'pageName2' => 'chenyingjuan',
+		);
+		$this->load->view("partnerdetail", $data);
+	}
+
+
 	public function fangmin_en() {
 		$data = array(
 			'name' => 'Mr. Min Fang',
