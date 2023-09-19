@@ -138,6 +138,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'guhuimin',
 			'pageName2' => 'guhuimin_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -161,6 +162,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'guhuimin_en',
 			'pageName2' => 'guhuimin',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -180,6 +182,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'huanchunyan',
 			'pageName2' => 'huanchunyan_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -203,6 +206,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'huanchunyan_en',
 			'pageName2' => 'huanchunyan',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -225,6 +229,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'jiangjin',
 			'pageName2' => 'jiangjin_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -250,6 +255,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'jiangjin_en',
 			'pageName2' => 'jiangjin',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -272,6 +278,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'jiangyuxing',
 			'pageName2' => 'jiangyuxing_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -296,6 +303,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'jiangyuxing_en',
 			'pageName2' => 'jiangyuxing',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -317,6 +325,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'jinjie',
 			'pageName2' => 'jinjie_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -340,6 +349,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'jinjie_en',
 			'pageName2' => 'jinjie',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -362,6 +372,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'suayn',
 			'pageName2' => 'suyan_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -385,6 +396,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'suyan_en',
 			'pageName2' => 'suyan',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -414,6 +426,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'gongyongmei',
 			'pageName2' => 'gongyongmei_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -437,6 +450,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'gongyongmei_en',
 			'pageName2' => 'gongyongmei',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -458,6 +472,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'zhangyongzhe',
 			'pageName2' => 'zhangyongzhe_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -480,6 +495,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'zhangyongzhe_en',
 			'pageName2' => 'zhangyongzhe',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -512,6 +528,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'sangtao',
 			'pageName2' => 'sangtao_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -537,6 +554,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'sangtao_en',
 			'pageName2' => 'sangtao',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -562,6 +580,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'gaofenfang',
 			'pageName2' => 'gaofenfang_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -583,6 +602,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'gaofenfang_en',
 			'pageName2' => 'gaofenfang',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -606,6 +626,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'guodan',
 			'pageName2' => 'guodan_en',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -625,6 +646,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'guodan_en',
 			'pageName2' => 'guodan',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -646,6 +668,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'chenyingjuan',
 			'pageName2' => 'chenyingjuan_en',
+			"otherStyle" => 'height:auto;margin: -10px 0 0 10px;',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -666,6 +689,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'chenyingjuan_en',
 			'pageName2' => 'chenyingjuan',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -685,6 +709,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'fangmin_en',
 			'pageName2' => 'fangmin',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -700,6 +725,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'liujun_en',
 			'pageName2' => 'liujun',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -715,6 +741,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'linye_en',
 			'pageName2' => 'linye',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -731,6 +758,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'lyuzhanzhu_en',
 			'pageName2' => 'lyuzhanzhu',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -746,6 +774,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'yanghonglong_en',
 			'pageName2' => 'yanghonglong',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -761,6 +790,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'sunshumei_en',
 			'pageName2' => 'sunshumei',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}
@@ -776,6 +806,7 @@ class Main extends CI_Controller
 			),
 			'pageName' => 'zhengyu_en',
 			'pageName2' => 'zhengyu',
+			"otherStyle" => '',
 		);
 		$this->load->view("partnerdetail", $data);
 	}

@@ -48,7 +48,7 @@
 				<div class="fl navright">
 					<div class="partenterDetail cl">
 						<div class="cl partnerDetailTop">
-							<div class="partenterAva">
+							<div class="partenterAva <?php echo isset($otherStyle) ? $otherStyle : ''; ?>">
 								<img src="<?php echo base_url();?>static/i/person/<?php echo $photo; ?>" class="imgava"/>
 								<div class="avabg"></div>
 							</div>
