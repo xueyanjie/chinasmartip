@@ -29,8 +29,12 @@
 							<div id="copy_target">
 								<p class="p16">CHINA SMART INTELLECTUAL PROPERTY LTD.</p>
 								<div class="phold phold5"></div>
-								<p class="p14">1412,14FL-1st Office Building Henderson Center, No. 18 Jianguomennei Ave.</p>
+								<!-- <p class="p14">1412,14FL-1st Office Building Henderson Center, No. 18 Jianguomennei Ave.</p>
 								<p class="p14">Dongcheng District, Beijing, PRC, 100005</p>
+								<p class="p14"><span class="connectSpanLeft_en">Tel.: 86-10-65184418 </span><span>Fax:  86-10-65184417</span></p>
+								<p class="p14"><span class="connectSpanLeft_en">Email: info@chinasmartip.com</span><span>Website: http://www.chinasmartip.com</span></p> -->
+								<p class="p14">Yiyuan Office Building, Friendship Hotel, Haidian District</p>
+								<p class="p14">Beijing, P.R. China 100873</p>
 								<p class="p14"><span class="connectSpanLeft_en">Tel.: 86-10-65184418 </span><span>Fax:  86-10-65184417</span></p>
 								<p class="p14"><span class="connectSpanLeft_en">Email: info@chinasmartip.com</span><span>Website: http://www.chinasmartip.com</span></p>
 							</div>

@@ -32,7 +32,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div id="copy_target">
 						<p class="p16">北京汉智嘉成知识产权代理有限公司</p>
 						<div class="phold phold5"></div>
-						<p class="p14">地址：中国北京市东城区建国门内大街18号恒基中心办一14层1412 <span class="marginl10">邮政编码：100005</span></p>
+						<!-- <p class="p14">地址：中国北京市东城区建国门内大街18号恒基中心办一14层1412 <span class="marginl10">邮政编码：100005</span></p>
+						<p class="p14"><span class="connectSpanLeft">电话：86-10-65184418</span><span>传真：86-10-65184417</span></p>
+						<p class="p14"><span class="connectSpanLeft">电子邮件：info@chinasmartip.com</span><span>网址：http://www.chinasmartip.com</span></p> -->
+						<p class="p14">地址：中国北京市海淀区友谊宾馆颐园写字楼 <span class="marginl10">100873</span></p>
 						<p class="p14"><span class="connectSpanLeft">电话：86-10-65184418</span><span>传真：86-10-65184417</span></p>
 						<p class="p14"><span class="connectSpanLeft">电子邮件：info@chinasmartip.com</span><span>网址：http://www.chinasmartip.com</span></p>
 					</div>
