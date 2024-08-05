@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<?php $this->load->view('commonmenu');?>
 				</div>
 				<div class="fl navright" id="navright">
-					<img src="<?php echo base_url();?>static/i/map.jpg" class="imgmap"/>
+					<img src="<?php echo base_url();?>static/i/map_v2.png" class="imgmap"/>
 					<div class="phold phold20"></div>
 					<div id="copy_target">
 						<p class="p16">北京汉智嘉成知识产权代理有限公司</p>
